@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vinhomes Green Paradise - Cần Giờ Quiz">
+    <title>Vinhomes Green Paradise Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Vinhomes Green Paradise</h1>
+            <p class="subtitle">Cần Giờ - Quiz Kiến Thức</p>
+        </header>
+
+        <main class="main-content">
+            <div class="intro-section">
+                <h2>Chào mừng bạn đến với bài kiểm tra!</h2>
+                <div class="quiz-info">
+                    <div class="info-item">
+                        <span class="icon">📝</span>
+                        <div>
+                            <strong>30 câu hỏi</strong>
+                            <p>28 trắc nghiệm + 2 tự luận</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">⏱️</span>
+                        <div>
+                            <strong>20 phút</strong>
+                            <p>Thời gian làm bài</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎯</span>
+                        <div>
+                            <strong>38 điểm</strong>
+                            <p>Tổng điểm tối đa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>Vui lòng điền thông tin của bạn</h3>
+                <form id="userInfoForm" class="user-form">
+                    <div class="form-group">
+                        <label for="name">
+                            Họ và tên <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name"
+                            placeholder="Nhập họ và tên của bạn"
+                            required
+                            autocomplete="name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">
+                            Số điện thoại <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            name="phone"
+                            placeholder="Nhập số điện thoại"
+                            required
+                            pattern="[0-9]{10,11}"
+                            title="Vui lòng nhập số điện thoại hợp lệ (10-11 số)"
+                            autocomplete="tel"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="agentName">
+                            Tên Agent <span class="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="agentName" 
+                            name="agentName"
+                            placeholder="Nhập tên Agent"
+                            required
+                            autocomplete="off"
+                        >
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            Bắt đầu làm bài
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="instructions">
+                <h4>Lưu ý:</h4>
+                <ul>
+                    <li>Bài thi gồm 30 câu hỏi: 28 câu trắc nghiệm và 2 câu tự luận</li>
+                    <li>Thời gian làm bài: 20 phút</li>
+                    <li>Bài thi sẽ tự động nộp khi hết giờ</li>
+                    <li>Bạn chỉ được xem tổng điểm, không xem đáp án chi tiết</li>
+                    <li>Vui lòng điền đầy đủ thông tin trước khi bắt đầu</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Vinhomes Green Paradise - Cần Giờ</p>
+        </footer>
+    <!-- Scripts -->
+    <script src="version.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

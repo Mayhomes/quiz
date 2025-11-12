@@ -1,0 +1,145 @@
+**Product Requirements Document (PRD)**
+
+---
+
+**Project Name:** Random Quiz Questions Web App
+
+**Document Version:** 1.0
+
+**Date:** 11/11/2025
+
+**Prepared by:** [Your Name]
+
+---
+
+## 1. Overview
+
+The Random Quiz Questions Web App allows users to take a timed quiz with randomly selected questions from a master set. The app collects user information, presents questions in a random order, and saves results to a Google Sheet. Users are only shown the total score and summary, not individual answers.
+
+**Key Objectives:**
+
+* Deliver randomized quiz questions per user.
+* Ensure data collection to Google Sheets.
+* Keep quiz answers hidden from users.
+* Provide a responsive, user-friendly interface.
+* Track quiz scores and timing accurately.
+
+---
+
+## 2. Quiz Structure
+
+**Master Set:**
+
+* 51 multiple-choice questions (MCQs)
+* 9 essay questions
+
+**Per User Quiz:**
+
+* Total Questions: 30
+
+  * 28 MCQs (randomly selected)
+  * 2 Essay Questions (always at the end)
+* Time Limit: 20 minutes
+* Each question has an assigned score value
+
+**Scoring Example:**
+
+* MCQs: 1 point each
+* Essay Questions: 5 points each
+* Total possible score: 28 + 10 = 38 points
+
+---
+
+## 3. User Flow
+
+1. User visits quiz link.
+2. User fills in required personal information:
+
+   * Name
+   * Phone Number
+   * Agent Name
+3. User clicks "Start Quiz".
+4. Quiz questions appear (all at once or one by one, randomized).
+5. Timer counts down from 20 minutes.
+6. User completes the quiz and clicks "Submit".
+7. Quiz data is sent to Google Sheets:
+
+   * Name
+   * Phone Number
+   * Agent Name
+   * Timestamp
+   * Selected Questions
+   * User Answers
+   * Total Score
+8. User sees only total score summary.
+
+---
+
+## 4. Features & Requirements
+
+**Core Features:**
+
+* Random selection of 28 MCQs per user.
+* Always include 2 essay questions at the end.
+* Countdown timer for 20 minutes.
+* Score tracking per question.
+* Responsive UI for desktop and mobile.
+* Prevent users from viewing correct answers.
+* Send quiz results to Google Sheet.
+* Display total score summary only.
+
+**Technical Requirements:**
+
+* Frontend: HTML, CSS, JavaScript (or optional framework: React/Vue/Alpine.js)
+* Backend: Google Apps Script or serverless function
+* No user authentication required
+* Data validation to ensure all fields are completed
+
+---
+
+## 5. Technical Architecture
+
+**Frontend:**
+
+* Quiz page with personal info form and quiz interface
+* Timer component
+* Randomization logic for question selection
+* Submit button triggers data transfer to backend
+
+**Backend:**
+
+* Google Apps Script or serverless API
+* Receive quiz data
+* Save data to Google Sheet
+* Calculate total score
+* Return score summary to frontend
+
+**Google Sheet Structure:**
+| Timestamp | Name | Phone | Agent Name | Q1 Answer | Q2 Answer | ... | Q30 Answer | Total Score |
+
+**Data Flow:**
+
+1. User submits quiz → 2. Frontend sends data → 3. Backend receives → 4. Data saved in Google Sheet → 5. Total score calculated → 6. Score summary returned to frontend
+
+---
+
+## 6. Wireframes (Optional)
+
+* **Landing Page:** Personal Info Form + "Start Quiz" button
+* **Quiz Page:** Question list, timer, and submit button
+* **Result Page:** Total score summary
+
+---
+
+## 7. Acceptance Criteria
+
+* Quiz generates 30 random questions per user, 28 MCQs and 2 essays at the end.
+* Timer counts down from 20 minutes and prevents submission after expiration.
+* User cannot see correct answers.
+* Quiz results (answers + total score) are correctly saved to Google Sheet.
+* Total score summary is displayed to the user immediately after submission.
+* UI is responsive and functional on desktop and mobile devices.
+
+---
+
+**End of Document**

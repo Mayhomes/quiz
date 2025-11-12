@@ -1,0 +1,44 @@
+{
+  "project": {
+    "name": "Random Quiz Questions Web App",
+    "version": "1.0.0",
+    "description": "A timed quiz web app with randomized questions that saves results to Google Sheets"
+  },
+  "taskmaster": {
+    "version": "1.0.0",
+    "enabled": true,
+    "autoSave": true,
+    "taskFile": ".taskmaster/tasks.json",
+    "historyFile": ".taskmaster/history.json"
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "maxTokens": 2000
+  },
+  "workflow": {
+    "defaultPriority": "medium",
+    "autoAssign": true,
+    "notifications": {
+      "enabled": true,
+      "channels": ["console"]
+    }
+  },
+  "integrations": {
+    "googleSheets": {
+      "enabled": true,
+      "configFile": ".env"
+    },
+    "git": {
+      "enabled": true,
+      "autoCommit": false
+    }
+  },
+  "directories": {
+    "src": "./src",
+    "tests": "./tests",
+    "docs": "./docs",
+    "config": "./config"
+  }
+}

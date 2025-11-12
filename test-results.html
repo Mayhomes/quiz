@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Test - Google Sheets</title>
+</head>
+<body>
+    <h1>Google Sheets Integration Test</h1>
+    <button id="testBtn">Test Submission</button>
+    <pre id="output"></pre>
+
+    <script src="config/google-sheets.config.js"></script>
+    <script src="js/google-sheets-submit.js"></script>
+    <script>
+        const output = document.getElementById('output');
+        
+        // Check what's loaded
+        output.textContent = 'Checking configuration...\n';
+        output.textContent += 'Config: ' + JSON.stringify(GOOGLE_SHEETS_CONFIG, null, 2) + '\n\n';
+        output.textContent += 'submitToGoogleSheets function exists: ' + (typeof window.submitToGoogleSheets === 'function') + '\n';
+        output.textContent += 'GoogleSheetsAPI exists (OLD): ' + (typeof window.GoogleSheetsAPI !== 'undefined') + '\n';
+        output.textContent += 'GoogleSheetsSubmitter exists (NEW): ' + (typeof window.GoogleSheetsSubmitter !== 'undefined') + '\n\n';
+        
+        document.getElementById('testBtn').addEventListener('click', async () => {
+            output.textContent += '\n=== Testing Submission ===\n';
+            
+            const testData = {
+                userInfo: { name: 'Test', phone: '0123456789', agentName: 'Test', startTime: new Date().toISOString() },
+                quiz: { totalQuestions: 30, mcqCount: 28, essayCount: 2 },
+                score: { mcq: { score: 25, total: 28, percentage: '89.3' }, essay: { score: 0, total: 10 }, total: { score: 25, maxScore: 38, percentage: '65.8' } },
+                details: [],
+                completedAt: new Date().toISOString()
+            };
+            
+            try {
+                const result = await window.submitToGoogleSheets(testData);
+                output.textContent += 'Result: ' + JSON.stringify(result, null, 2) + '\n';
+            } catch (error) {
+                output.textContent += 'Error: ' + error.message + '\n';
+                output.textContent += 'Stack: ' + error.stack + '\n';
+            }
+        });
+    </script>
+</body>
+</html>

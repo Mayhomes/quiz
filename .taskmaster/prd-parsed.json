@@ -1,0 +1,260 @@
+{
+  "project": {
+    "name": "Random Quiz Questions Web App",
+    "version": "1.0",
+    "date": "2025-11-11",
+    "preparedBy": "[Your Name]"
+  },
+  "overview": {
+    "description": "A timed quiz web app that allows users to take a quiz with randomly selected questions from a master set. The app collects user information, presents questions in random order, and saves results to Google Sheet. Users only see total score and summary, not individual answers.",
+    "keyObjectives": [
+      "Deliver randomized quiz questions per user",
+      "Ensure data collection to Google Sheets",
+      "Keep quiz answers hidden from users",
+      "Provide a responsive, user-friendly interface",
+      "Track quiz scores and timing accurately"
+    ]
+  },
+  "quizStructure": {
+    "masterSet": {
+      "mcqs": 51,
+      "essayQuestions": 9,
+      "total": 60
+    },
+    "perUserQuiz": {
+      "totalQuestions": 30,
+      "mcqs": 28,
+      "essayQuestions": 2,
+      "essayPosition": "always at the end",
+      "timeLimit": "20 minutes",
+      "timeLimitMinutes": 20
+    },
+    "scoring": {
+      "mcqPoints": 1,
+      "essayPoints": 5,
+      "maxScore": 38,
+      "calculation": "28 MCQs × 1 point + 2 Essays × 5 points = 38 points"
+    }
+  },
+  "userFlow": [
+    {
+      "step": 1,
+      "action": "User visits quiz link",
+      "page": "landing"
+    },
+    {
+      "step": 2,
+      "action": "User fills in required personal information",
+      "fields": [
+        "Name",
+        "Phone Number",
+        "Agent Name"
+      ],
+      "page": "landing"
+    },
+    {
+      "step": 3,
+      "action": "User clicks 'Start Quiz'",
+      "page": "landing"
+    },
+    {
+      "step": 4,
+      "action": "Quiz questions appear (all at once or one by one, randomized)",
+      "page": "quiz"
+    },
+    {
+      "step": 5,
+      "action": "Timer counts down from 20 minutes",
+      "page": "quiz"
+    },
+    {
+      "step": 6,
+      "action": "User completes the quiz and clicks 'Submit'",
+      "page": "quiz"
+    },
+    {
+      "step": 7,
+      "action": "Quiz data is sent to Google Sheets",
+      "dataFields": [
+        "Name",
+        "Phone Number",
+        "Agent Name",
+        "Timestamp",
+        "Selected Questions",
+        "User Answers",
+        "Total Score"
+      ],
+      "page": "quiz"
+    },
+    {
+      "step": 8,
+      "action": "User sees only total score summary",
+      "page": "results"
+    }
+  ],
+  "features": {
+    "core": [
+      "Random selection of 28 MCQs per user",
+      "Always include 2 essay questions at the end",
+      "Countdown timer for 20 minutes",
+      "Score tracking per question",
+      "Responsive UI for desktop and mobile",
+      "Prevent users from viewing correct answers",
+      "Send quiz results to Google Sheet",
+      "Display total score summary only"
+    ],
+    "technical": [
+      "Frontend: HTML, CSS, JavaScript (or optional framework: React/Vue/Alpine.js)",
+      "Backend: Google Apps Script or serverless function",
+      "No user authentication required",
+      "Data validation to ensure all fields are completed"
+    ]
+  },
+  "technicalArchitecture": {
+    "frontend": {
+      "components": [
+        "Quiz page with personal info form and quiz interface",
+        "Timer component",
+        "Randomization logic for question selection",
+        "Submit button triggers data transfer to backend"
+      ],
+      "pages": [
+        "Landing Page: Personal Info Form + 'Start Quiz' button",
+        "Quiz Page: Question list, timer, and submit button",
+        "Result Page: Total score summary"
+      ]
+    },
+    "backend": {
+      "platform": "Google Apps Script or serverless API",
+      "responsibilities": [
+        "Receive quiz data",
+        "Save data to Google Sheet",
+        "Calculate total score",
+        "Return score summary to frontend"
+      ]
+    },
+    "database": {
+      "type": "Google Sheets",
+      "structure": {
+        "columns": [
+          "Timestamp",
+          "Name",
+          "Phone",
+          "Agent Name",
+          "Q1 Answer",
+          "Q2 Answer",
+          "...",
+          "Q30 Answer",
+          "Total Score"
+        ]
+      }
+    },
+    "dataFlow": [
+      "User submits quiz",
+      "Frontend sends data",
+      "Backend receives",
+      "Data saved in Google Sheet",
+      "Total score calculated",
+      "Score summary returned to frontend"
+    ]
+  },
+  "acceptanceCriteria": [
+    {
+      "id": "AC-001",
+      "description": "Quiz generates 30 random questions per user, 28 MCQs and 2 essays at the end",
+      "priority": "critical"
+    },
+    {
+      "id": "AC-002",
+      "description": "Timer counts down from 20 minutes and prevents submission after expiration",
+      "priority": "critical"
+    },
+    {
+      "id": "AC-003",
+      "description": "User cannot see correct answers",
+      "priority": "critical"
+    },
+    {
+      "id": "AC-004",
+      "description": "Quiz results (answers + total score) are correctly saved to Google Sheet",
+      "priority": "critical"
+    },
+    {
+      "id": "AC-005",
+      "description": "Total score summary is displayed to the user immediately after submission",
+      "priority": "high"
+    },
+    {
+      "id": "AC-006",
+      "description": "UI is responsive and functional on desktop and mobile devices",
+      "priority": "high"
+    }
+  ],
+  "dataModel": {
+    "userInfo": {
+      "name": "string",
+      "phoneNumber": "string",
+      "agentName": "string"
+    },
+    "question": {
+      "id": "string",
+      "type": "mcq | essay",
+      "text": "string",
+      "options": "array (for MCQ only)",
+      "correctAnswer": "string (for MCQ only)",
+      "points": "number"
+    },
+    "quizSession": {
+      "timestamp": "datetime",
+      "userInfo": "object",
+      "selectedQuestions": "array",
+      "userAnswers": "array",
+      "totalScore": "number",
+      "timeRemaining": "number"
+    }
+  },
+  "implementation": {
+    "phases": [
+      {
+        "phase": 1,
+        "name": "Setup & Infrastructure",
+        "tasks": [
+          "Create project structure",
+          "Setup Google Sheets",
+          "Create Google Apps Script",
+          "Initialize frontend files"
+        ]
+      },
+      {
+        "phase": 2,
+        "name": "Core Functionality",
+        "tasks": [
+          "Implement question bank",
+          "Create randomization logic",
+          "Build timer component",
+          "Develop form validation"
+        ]
+      },
+      {
+        "phase": 3,
+        "name": "Integration",
+        "tasks": [
+          "Connect frontend to backend",
+          "Implement data submission",
+          "Setup score calculation",
+          "Create results display"
+        ]
+      },
+      {
+        "phase": 4,
+        "name": "Polish & Testing",
+        "tasks": [
+          "Responsive design implementation",
+          "Cross-browser testing",
+          "User acceptance testing",
+          "Bug fixes and optimization"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+/**
+ * Question Randomizer Module
+ * Loads and randomizes quiz questions
+ * Vinhomes Green Paradise Quiz
+ */
+
+(function() {
+    'use strict';
+
+    /**
+     * Fisher-Yates shuffle algorithm
+     * @param {Array} array - Array to shuffle
+     * @returns {Array} Shuffled array
+     */
+    function shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    /**
+     * Load questions from JSON files
+     * @returns {Promise<Object>} Object containing MCQs and essays
+     */
+    async function loadQuestions() {
+        try {
+            const [mcqPart1Response, mcqPart2Response] = await Promise.all([
+                fetch('data/mcq-questions-part1.json'),
+                fetch('data/mcq-questions-part2.json')
+            ]);
+
+            if (!mcqPart1Response.ok || !mcqPart2Response.ok) {
+                throw new Error('Failed to load question files');
+            }
+
+            const mcqPart1 = await mcqPart1Response.json();
+            const mcqPart2 = await mcqPart2Response.json();
+
+            return {
+                mcqs: [...mcqPart1.questions, ...mcqPart2.questions]
+            };
+        } catch (error) {
+            console.error('Error loading questions:', error);
+            throw new Error('Không thể tải câu hỏi. Vui lòng kiểm tra kết nối và thử lại.');
+        }
+    }
+
+    /**
+     * Randomize and select questions for the quiz
+     * @returns {Promise<Array>} Array of 30 selected questions
+     */
+    async function randomizeQuestions() {
+        const data = await loadQuestions();
+        
+        if (!data || !data.mcqs) {
+            throw new Error('Invalid question data');
+        }
+
+        // Validate we have enough questions
+        if (data.mcqs.length < 30) {
+            throw new Error(`Không đủ câu hỏi trắc nghiệm (cần 30, có ${data.mcqs.length})`);
+        }
+
+        // Shuffle and select 30 MCQs
+        const shuffledMCQs = shuffleArray(data.mcqs);
+        const selectedMCQs = shuffledMCQs.slice(0, 30);
+
+        // No essay questions
+        const quizQuestions = [...selectedMCQs];
+
+        // Store in localStorage
+        localStorage.setItem('quizQuestions', JSON.stringify(quizQuestions));
+        
+        console.log('Questions randomized:', {
+            mcqs: selectedMCQs.length,
+            essays: 0,
+            total: quizQuestions.length
+        });
+
+        return quizQuestions;
+    }
+
+    /**
+     * Initialize quiz with randomized questions
+     * Checks if questions already exist (page refresh)
+     * @returns {Promise<Array>} Array of quiz questions
+     */
+    async function initializeQuiz() {
+        // Check if questions already exist (page refresh)
+        let questionsJson = localStorage.getItem('quizQuestions');
+        
+        if (questionsJson) {
+            try {
+                const questions = JSON.parse(questionsJson);
+                
+                // Validate the stored questions
+                if (Array.isArray(questions) && questions.length === 30) {
+                    console.log('Using existing questions from localStorage');
+                    return questions;
+                }
+            } catch (error) {
+                console.error('Error parsing stored questions:', error);
+            }
+        }
+
+        // First time or invalid data - randomize questions
+        console.log('Randomizing new questions...');
+        return await randomizeQuestions();
+    }
+
+    /**
+     * Get stored questions without randomizing
+     * @returns {Array|null} Stored questions or null
+     */
+    function getStoredQuestions() {
+        const questionsJson = localStorage.getItem('quizQuestions');
+        if (questionsJson) {
+            try {
+                return JSON.parse(questionsJson);
+            } catch (error) {
+                console.error('Error parsing stored questions:', error);
+                return null;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Clear stored questions
+     */
+    function clearQuestions() {
+        localStorage.removeItem('quizQuestions');
+        console.log('Questions cleared from localStorage');
+    }
+
+    // Export to global scope
+    window.QuizRandomizer = {
+        initializeQuiz,
+        randomizeQuestions,
+        getStoredQuestions,
+        clearQuestions
+    };
+
+})();

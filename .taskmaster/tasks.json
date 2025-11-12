@@ -1,0 +1,270 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Create Landing Page with User Info Form",
+      "description": "Build index.html with personal information form (Name, Phone, Agent Name) and Start Quiz button",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "html", "form"],
+      "subtasks": [
+        "Create index.html structure",
+        "Add form fields for Name, Phone Number, Agent Name",
+        "Implement form validation",
+        "Add Start Quiz button",
+        "Style the landing page",
+        "Store user info in localStorage on submit"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-002",
+      "title": "Build Quiz Interface Page",
+      "description": "Create quiz.html with question display, answer inputs, and navigation",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "html", "quiz"],
+      "dependencies": ["task-001"],
+      "subtasks": [
+        "Create quiz.html structure",
+        "Add question container",
+        "Add MCQ radio button options",
+        "Add essay textarea fields",
+        "Add progress indicator",
+        "Add Submit Quiz button",
+        "Style quiz interface"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-003",
+      "title": "Implement Question Randomization Logic",
+      "description": "Create JavaScript to randomly select 28 MCQs from 51 and 2 essays from 9, with essays always at the end",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "javascript", "logic"],
+      "dependencies": ["task-002"],
+      "subtasks": [
+        "Create randomizer.js module",
+        "Load questions from JSON files",
+        "Implement shuffle algorithm",
+        "Select 28 random MCQs",
+        "Select 2 random essays",
+        "Combine questions with essays at end",
+        "Store selected questions in localStorage"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-004",
+      "title": "Implement 20-Minute Countdown Timer",
+      "description": "Create timer component with countdown, visual warnings, and auto-submit at 00:00",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "javascript", "timer"],
+      "dependencies": ["task-002"],
+      "subtasks": [
+        "Create timer.js module",
+        "Implement countdown from 20:00 to 00:00",
+        "Update display every second",
+        "Add color warnings (green > yellow > red)",
+        "Implement auto-submit when time expires",
+        "Prevent submission after timeout",
+        "Add timer to quiz page UI"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-005",
+      "title": "Implement Quiz Logic and State Management",
+      "description": "Create main quiz controller to manage questions, answers, and user interactions",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "javascript", "state"],
+      "dependencies": ["task-003", "task-004"],
+      "subtasks": [
+        "Create quiz.js module",
+        "Load randomized questions",
+        "Display questions (all at once or one by one)",
+        "Capture user answers",
+        "Save answers to localStorage",
+        "Handle quiz submission",
+        "Navigate to results page"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-006",
+      "title": "Implement Score Calculation (Frontend)",
+      "description": "Calculate MCQ scores in JavaScript and prepare data for storage",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "javascript", "scoring"],
+      "dependencies": ["task-005"],
+      "subtasks": [
+        "Create scorer.js module",
+        "Compare user answers with correct answers",
+        "Calculate MCQ score (1 point each)",
+        "Mark essays for manual review",
+        "Calculate total score",
+        "Generate score summary",
+        "Store results in localStorage"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-007",
+      "title": "Create Results Display Page",
+      "description": "Build results.html to show score summary without revealing correct answers",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["frontend", "html", "results"],
+      "dependencies": ["task-006"],
+      "subtasks": [
+        "Create results.html structure",
+        "Display user information",
+        "Show MCQ score (X/28)",
+        "Show essay status (pending review)",
+        "Show total score",
+        "Add download results button",
+        "Add retake quiz button",
+        "Do NOT show correct answers"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-008",
+      "title": "Implement Data Export Functionality",
+      "description": "Add ability to download quiz results as JSON file for manual collection",
+      "status": "pending",
+      "priority": "medium",
+      "tags": ["frontend", "javascript", "export"],
+      "dependencies": ["task-007"],
+      "subtasks": [
+        "Create export.js module",
+        "Compile all quiz data (user info, questions, answers, score)",
+        "Generate JSON file",
+        "Trigger file download",
+        "Format filename with timestamp and user name",
+        "Add CSV export option (optional)"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-009",
+      "title": "Implement Responsive Design",
+      "description": "Ensure UI works perfectly on desktop, tablet, and mobile devices",
+      "status": "pending",
+      "priority": "medium",
+      "tags": ["frontend", "css", "responsive"],
+      "dependencies": ["task-001", "task-002", "task-007"],
+      "subtasks": [
+        "Create responsive.css",
+        "Define breakpoints (mobile, tablet, desktop)",
+        "Implement mobile-first design",
+        "Test on various screen sizes",
+        "Optimize touch targets for mobile",
+        "Ensure readable font sizes",
+        "Test landscape and portrait modes"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-010",
+      "title": "Create Main Stylesheet",
+      "description": "Design and implement modern, professional CSS styling for all pages",
+      "status": "pending",
+      "priority": "medium",
+      "tags": ["frontend", "css", "design"],
+      "dependencies": ["task-001", "task-002"],
+      "subtasks": [
+        "Create styles.css",
+        "Define color scheme",
+        "Set typography (fonts, sizes, weights)",
+        "Style forms and inputs",
+        "Style buttons and CTAs",
+        "Add animations and transitions",
+        "Ensure accessibility (contrast, focus states)"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-011",
+      "title": "Testing and Quality Assurance",
+      "description": "Comprehensive testing of all functionality across browsers and devices",
+      "status": "pending",
+      "priority": "medium",
+      "tags": ["testing", "qa"],
+      "dependencies": ["task-005", "task-006", "task-007", "task-008", "task-009"],
+      "subtasks": [
+        "Test form validation",
+        "Test question randomization",
+        "Test timer functionality",
+        "Test score calculation accuracy",
+        "Test data export",
+        "Cross-browser testing (Chrome, Firefox, Safari, Edge)",
+        "Mobile device testing",
+        "Test edge cases and error handling"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-012",
+      "title": "Deployment Setup",
+      "description": "Prepare and deploy the application to a static hosting platform",
+      "status": "pending",
+      "priority": "low",
+      "tags": ["deployment", "hosting"],
+      "dependencies": ["task-011"],
+      "subtasks": [
+        "Choose hosting platform (Netlify/Vercel/GitHub Pages)",
+        "Create deployment configuration",
+        "Test deployment locally",
+        "Deploy to production",
+        "Configure custom domain (optional)",
+        "Test production deployment",
+        "Document deployment process"
+      ],
+      "createdAt": "2025-11-11T19:46:51+07:00",
+      "updatedAt": "2025-11-11T19:46:51+07:00"
+    },
+    {
+      "id": "task-013",
+      "title": "Google Sheets Integration for Results Aggregation",
+      "description": "Implement automatic submission of quiz results to Google Sheets for centralized data collection and analysis",
+      "status": "pending",
+      "priority": "high",
+      "tags": ["backend", "google-sheets", "integration", "data"],
+      "dependencies": ["task-007", "task-008"],
+      "subtasks": [
+        "Create config/google-sheets.config.js configuration file",
+        "Setup Google Sheets API access",
+        "Create Google Apps Script for data reception",
+        "Implement client-side submission to Google Sheets",
+        "Add submission status feedback to results page",
+        "Handle submission errors gracefully",
+        "Test data submission and verification"
+      ],
+      "createdAt": "2025-11-12T01:12:38+07:00",
+      "updatedAt": "2025-11-12T01:12:38+07:00",
+      "googleSheetUrl": "https://docs.google.com/spreadsheets/d/114RmHlWam_wlZb9ZLb9C67X8B1rb97k2i5MDCKBN_bo/"
+    }
+  ],
+  "metadata": {
+    "totalTasks": 13,
+    "completedTasks": 0,
+    "implementationType": "frontend-only",
+    "lastUpdated": "2025-11-12T01:12:38+07:00"
+  }
+}
