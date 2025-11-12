@@ -23,7 +23,7 @@ METHOD 1: NETLIFY DROP (EASIEST - NO INSTALLATION)
 5. (Optional) Change site name:
    - Click "Site settings"
    - Click "Change site name"
-   - Enter: vinhomes-quiz
+   - Enter: quiz
 
 ═══════════════════════════════════════════════════════════════
 
@@ -42,7 +42,7 @@ METHOD 2: NETLIFY CLI (FOR DEVELOPERS)
 
 4. Follow prompts:
    - Create new site: Yes
-   - Site name: vinhomes-quiz
+   - Site name: quiz
    - Publish directory: . (current directory)
 
 5. Done! Your site is live ✅
@@ -54,11 +54,11 @@ METHOD 3: GITHUB + NETLIFY (CONTINUOUS DEPLOYMENT)
 
 1. Create GitHub repository:
    - Go to: https://github.com/new
-   - Name: vinhomes-quiz
+   - Name: quiz
    - Create repository
 
 2. Push code to GitHub:
-   git remote add origin https://github.com/YOUR_USERNAME/vinhomes-quiz.git
+   git remote add origin https://github.com/YOUR_USERNAME/quiz.git
    git branch -M main
    git push -u origin main
 

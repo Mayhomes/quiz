@@ -1,117 +1,111 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kết quả bài thi - Vinhomes Green Paradise Quiz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kết quả bài thi - Vinhomes Green Paradise Quiz"
+    />
     <title>Kết quả - Vinhomes Green Paradise Quiz</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/results.css">
-</head>
-<body class="results-page">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/results.css" />
+  </head>
+  <body class="results-page">
     <div class="results-wrapper">
-        <!-- Header -->
-        <header class="results-header">
-            <div class="success-icon">🎉</div>
-            <h1>Hoàn thành bài thi!</h1>
-            <p>Cảm ơn bạn đã tham gia</p>
-        </header>
+      <!-- Header -->
+      <header class="results-header">
+        <div class="success-icon">🎉</div>
+        <h1>Hoàn thành bài thi!</h1>
+        <p>Cảm ơn bạn đã tham gia</p>
+      </header>
 
-        <!-- Main Results Content -->
-        <main class="results-content">
-            <!-- User Info Card -->
-            <div class="card user-info-card">
-                <h2>Thông tin người dự thi</h2>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">Họ và tên:</span>
-                        <span class="info-value" id="user-name">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Số điện thoại:</span>
-                        <span class="info-value" id="user-phone">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Agent:</span>
-                        <span class="info-value" id="user-agent">-</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Thời gian hoàn thành:</span>
-                        <span class="info-value" id="completed-time">-</span>
-                    </div>
-                </div>
+      <!-- Main Results Content -->
+      <main class="results-content">
+        <!-- User Info Card -->
+        <div class="card user-info-card">
+          <h2>Thông tin người dự thi</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-label">Họ và tên:</span>
+              <span class="info-value" id="user-name">-</span>
             </div>
-
-            <!-- Score Summary Card -->
-            <div class="card score-card">
-                <h2>Kết quả bài thi</h2>
-                
-                <!-- Total Score - Large Display -->
-                <div class="total-score">
-                    <div class="score-circle">
-                        <div class="score-number">
-                            <span id="total-score">0</span>
-                            <span class="score-divider">/</span>
-                            <span id="max-score">38</span>
-                        </div>
-                        <div class="score-label">Tổng điểm</div>
-                    </div>
-                    <div class="score-percentage">
-                        <span id="percentage">0</span>%
-                    </div>
-                </div>
-
-                <!-- Score Breakdown -->
-                <div class="score-breakdown">
-                    <div class="breakdown-item mcq">
-                        <div class="breakdown-icon">📝</div>
-                        <div class="breakdown-content">
-                            <h3>Câu hỏi trắc nghiệm</h3>
-                            <div class="breakdown-score">
-                                <span id="mcq-score">0</span>/<span id="mcq-total">30</span> câu đúng
-                            </div>
-                            <div class="breakdown-percentage">
-                                <span id="mcq-percentage">0</span>% chính xác
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="info-item">
+              <span class="info-label">Số điện thoại:</span>
+              <span class="info-value" id="user-phone">-</span>
             </div>
+            <div class="info-item">
+              <span class="info-label">Tên đại lý:</span>
+              <span class="info-value" id="user-agent">-</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Thời gian hoàn thành:</span>
+              <span class="info-value" id="completed-time">-</span>
+            </div>
+          </div>
+        </div>
 
-            <!-- Actions Card -->
-            <div class="card actions-card">
-                <h2>Tải kết quả</h2>
-                <p>Tải xuống kết quả bài thi của bạn để lưu trữ hoặc gửi cho giáo viên</p>
-                
-                <div class="action-buttons">
-                    <button id="download-json-btn" class="btn btn-primary">
-                        <span class="btn-icon">📥</span>
-                        Tải xuống JSON
-                    </button>
-                    <button id="download-csv-btn" class="btn btn-secondary">
-                        <span class="btn-icon">📊</span>
-                        Tải xuống CSV
-                    </button>
+        <!-- Score Summary Card -->
+        <div class="card score-card">
+          <h2>Kết quả bài thi</h2>
+
+          <!-- Total Score - Large Display -->
+          <div class="total-score">
+            <div class="score-circle">
+              <div class="score-number">
+                <span id="total-score">0</span>
+                <span class="score-divider">/</span>
+                <span id="max-score">38</span>
+              </div>
+              <div class="score-label">Tổng điểm</div>
+            </div>
+            <div class="score-percentage"><span id="percentage">0</span>%</div>
+          </div>
+
+          <!-- Score Breakdown -->
+          <div class="score-breakdown">
+            <div class="breakdown-item mcq">
+              <div class="breakdown-icon">📝</div>
+              <div class="breakdown-content">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <div class="breakdown-score">
+                  <span id="mcq-score">0</span>/<span id="mcq-total">30</span>
+                  câu đúng
                 </div>
+                <div class="breakdown-percentage">
+                  <span id="mcq-percentage">0</span>% chính xác
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <!-- Retake Quiz Card -->
-            <div class="card retake-card">
-                <h2>Làm lại bài thi?</h2>
-                <p>Bạn có thể làm lại bài thi với bộ câu hỏi mới được chọn ngẫu nhiên</p>
-                
-                <button id="retake-btn" class="btn btn-outline">
-                    <span class="btn-icon">🔄</span>
-                    Làm lại bài thi
-                </button>
-            </div>
-        </main>
+        <!-- Actions Card -->
+        <div class="card actions-card">
+          <h2>Tải kết quả</h2>
+          <p>
+            Tải xuống kết quả bài thi của bạn để lưu trữ hoặc gửi cho người
+            khác.
+          </p>
 
-        <!-- Footer -->
-        <footer class="results-footer">
-            <p>&copy; 2025 Vinhomes Green Paradise - Cần Giờ</p>
-            <p>Cảm ơn bạn đã tham gia bài kiểm tra!</p>
-        </footer>
+          <div class="action-buttons">
+            <button id="download-json-btn" class="btn btn-primary">
+              <span class="btn-icon">📥</span>
+              Tải xuống JSON
+            </button>
+            <button id="download-csv-btn" class="btn btn-secondary">
+              <span class="btn-icon">📊</span>
+              Tải xuống CSV
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="results-footer">
+        <p>&copy; 2025 Vinhomes Green Paradise - Cần Giờ</p>
+        <p>Cảm ơn bạn đã tham gia bài kiểm tra!</p>
+      </footer>
     </div>
 
     <!-- Scripts -->
@@ -121,5 +115,5 @@
     <script src="config/google-sheets.config.js"></script>
     <script src="js/google-sheets-submit.js"></script>
     <script src="js/results.js"></script>
-</body>
+  </body>
 </html>

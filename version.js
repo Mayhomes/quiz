@@ -6,7 +6,7 @@
  * This will force browsers to reload the new files
  */
 
-const APP_VERSION = '1.1.0';
+const APP_VERSION = '1.2.0';
 const BUILD_DATE = '2025-11-12';
 
 // Export for use in other modules

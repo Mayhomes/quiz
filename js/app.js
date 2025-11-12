@@ -104,8 +104,8 @@ function validateAllFields(name, phone, agentName) {
     }
 
     // Validate agent name
-    if (!agentName || agentName.length < 2) {
-        showFieldError('agentName', 'Vui lòng nhập tên Agent hợp lệ');
+    if (!agentName || agentName === '') {
+        showFieldError('agentName', 'Vui lòng chọn đại lý');
         isValid = false;
     }
 
@@ -132,8 +132,10 @@ function validateInput(event) {
         }
     }
 
-    if (input.id === 'agentName' && value && value.length < 2) {
-        showFieldError(input.id, 'Tên Agent phải có ít nhất 2 ký tự');
+    if (input.id === 'agentName') {
+        if (value === '') {
+            showFieldError('agentName', 'Vui lòng chọn đại lý');
+        }
     }
 }
 

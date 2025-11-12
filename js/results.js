@@ -149,12 +149,6 @@
       if (downloadCsvBtn) {
         downloadCsvBtn.addEventListener("click", () => this.downloadCSV());
       }
-
-      // Retake button
-      const retakeBtn = document.getElementById("retake-btn");
-      if (retakeBtn) {
-        retakeBtn.addEventListener("click", () => this.retakeQuiz());
-      }
     }
 
     /**
@@ -181,24 +175,7 @@
       window.QuizExporter.downloadCSV(this.summary, this.userInfo.name);
     }
 
-    /**
-     * Retake quiz
-     */
-    retakeQuiz() {
-      const confirmed = confirm(
-        "Bạn có chắc chắn muốn làm lại bài thi?\n\n" +
-          "Kết quả hiện tại sẽ bị xóa và bạn sẽ nhận được bộ câu hỏi mới."
-      );
 
-      if (confirmed) {
-        // Clear all quiz data
-        window.QuizScorer.clearAllData();
-        window.QuizTimer.clearState();
-
-        // Redirect to home
-        window.location.href = "index.html";
-      }
-    }
 
     /**
      * Format phone number
