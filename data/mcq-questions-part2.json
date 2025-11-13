@@ -1,5 +1,5 @@
 {
-  "metaDự ánta": {
+  "metaData": {
     "part": "2 of 2",
     "questionsRange": "22-54",
     "totalInPart": 33
@@ -29,11 +29,11 @@
     {
       "id": "mcq-028",
       "number": 24,
-      "text": "Tuyến tàu điện cao tốc metro Q7 đi Cần Giờ được thiết kế như thế nào",
+      "text": "Tuyến tàu điện cao tốc metro Q7 đi Cần Giờ có vận tốc & thời gian di chuyển như thế nào",
       "options": [
         "A. Vận tốc 250km/h, 16 phút di chuyển",
         "B. Vận tốc 300km/h, 16 phút di chuyển",
-        "C. Vận tốc 350km/h, 12 phút di chuyển",
+        "C. Vận tốc 350km/h, 16 phút di chuyển",
         "D. Vận tốc 450km/h, 12 phút di chuyển"
       ],
       "correctAnswer": "C",
@@ -255,7 +255,7 @@
       "number": 42,
       "text": "Trong xu thế đô thị hóa bền vững, nhà đầu tư chọn VinhomesGreenParadise Cần Giờ vì:",
       "options": [
-        "A. Vị thế độc tôn – quỹ đất ven biển duy nhất và tầm nhìn chiến lược tiên phong phát triển kinh tế xanh tạiTP.HCM",
+        "A. Vị thế độc tôn – quỹ đất ven biển duy nhất và tầm nhìn chiến lược tiên phong phát triển kinh tế xanh tại TP.HCM",
         "B. Dễ mua bán đầu tư lướt sóng ngắn hạn",
         "C. Vị thế độc tôn -Không cần hạ tầng",
         "D. Nhiều khu công nghiệp lân cận"
