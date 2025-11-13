@@ -9,7 +9,12 @@
       "id": "mcq-001",
       "number": 1,
       "text": "Khi khách hàng so sánh giá dự án của bạn cao hơn đối thủ 5–10%, đâu là cách xử lý hiệu quả nhất?",
-      "options": ["A. Giảm giá ngay để cạnh tranh", "B. Thuyết phục khách bằng chính sách chiết khấu đặc biệt", "C. Phân tích giá trị vượt trội của dự án để chứng minh Vĩn Cần Giờ xứng đáng xuống tiền", "D. Né tránh so sánh, chuyển chủ đề khác"],
+      "options": [
+        "A. Giảm giá ngay để cạnh tranh",
+        "B. Thuyết phục khách bằng chính sách chiết khấu đặc biệt",
+        "C. Phân tích giá trị vượt trội của dự án để chứng minh Vin Cần Giờ xứng đáng xuống tiền",
+        "D. Né tránh so sánh, chuyển chủ đề khác"
+      ],
       "correctAnswer": "C",
       "points": 1
     },
@@ -17,7 +22,12 @@
       "id": "mcq-002",
       "number": 2,
       "text": "Chính sách bán hàng nên được điều chỉnh theo hướng nào khi thị trường đang chậm, thanh khoản thấp?",
-      "options": ["A. Tăng giá để tạo cảm giác \"hàng hiếm\"", "B. Linh hoạt về tiến độ thanh toán và tăng ưu đãi thực tế", "C. Cắt toàn bộ khuyến mãi để giữ biên lợi nhuận", "D. Giữ nguyên chính sách, không thay đổi"],
+      "options": [
+        "A. Tăng giá để tạo cảm giác \"hàng hiếm\"",
+        "B. Linh hoạt về tiến độ thanh toán và tăng ưu đãi thực tế",
+        "C. Cắt toàn bộ khuyến mãi để giữ biên lợi nhuận",
+        "D. Giữ nguyên chính sách, không thay đổi"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -25,7 +35,12 @@
       "id": "mcq-003",
       "number": 3,
       "text": "Nếu khách hàng muốn \"giữ cân\" nhưng chưa có khả năng thanh toán, bạn nên xử lý thế nào?",
-      "options": ["A. Cho giữ theo cảm tình, không cần xác nhận", "B. Giải thích rõ chính sách và đề xuất phương án đặt cọc giữ chỗ hợp lệ", "C. Cho giữ miễn phí để giữ thiện cảm khách hàng", "D. Để nghị khách đợi đợt sau mới mua"],
+      "options": [
+        "A. Cho giữ theo cảm tình, không cần xác nhận",
+        "B. Giải thích rõ chính sách và đề xuất phương án đặt cọc giữ chỗ hợp lệ",
+        "C. Cho giữ miễn phí để giữ thiện cảm khách hàng",
+        "D. Để nghị khách đợi đợt sau mới mua"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -33,7 +48,12 @@
       "id": "mcq-004",
       "number": 4,
       "text": "Với chính sách \"thanh toán nhanh – chiết khấu cao\", điều nào sau đây là rủi ro lớn nhất nếu không truyền thông đúng cách?",
-      "options": ["A. Khách hàng hiểu sai về giá trị thực của sản phẩm", "B. Chủ đầu tư bán được hàng quá nhanh", "C. Đại lý dễ chốt hơn bình thường", "D. Khách hàng quay lại mua thêm sản phẩm khác"],
+      "options": [
+        "A. Khách hàng hiểu sai về giá trị thực của sản phẩm",
+        "B. Chủ đầu tư bán được hàng quá nhanh",
+        "C. Đại lý dễ chốt hơn bình thường",
+        "D. Khách hàng quay lại mua thêm sản phẩm khác"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -41,7 +61,12 @@
       "id": "mcq-005",
       "number": 5,
       "text": "Dự án của bạn nằm xa trung tâm, nhưng có hạ tầng kết nối mạnh. Bạn nên làm gì để biến yếu tố này thành lợi thế bán hàng?",
-      "options": ["A. Nhấn mạnh sự yên tĩnh, xa ồn ào", "B. So sánh trực tiếp với trung tâm về giá", "C. Tập trung vào tiềm năng gia tăng giá trị nhờ hạ tầng liên kết vùng", "D. Giảm giá để bù đắp vị trí xa"],
+      "options": [
+        "A. Nhấn mạnh sự yên tĩnh, xa ồn ào",
+        "B. So sánh trực tiếp với trung tâm về giá",
+        "C. Tập trung vào tiềm năng gia tăng giá trị nhờ hạ tầng liên kết vùng",
+        "D. Giảm giá để bù đắp vị trí xa"
+      ],
       "correctAnswer": "C",
       "points": 1
     },
@@ -49,7 +74,12 @@
       "id": "mcq-006",
       "number": 6,
       "text": "Khi khách hàng nói: \"Tôi chỉ quan tâm giá đất, tiền nội khu không quan trọng\", bạn nên phản hồi ra sao?",
-      "options": ["A. Đồng ý với khách, tập trung nói về giá", "B. Giải thích tiện ích là yếu tố bảo toàn và tăng giá trị tài sản lâu dài", "C. Lảng sang chủ đề khác để tránh tranh luận", "D. Hỏi khách có muốn bỏ qua tiện ích để giảm giá không"],
+      "options": [
+        "A. Đồng ý với khách, tập trung nói về giá",
+        "B. Giải thích tiện ích là yếu tố bảo toàn và tăng giá trị tài sản lâu dài",
+        "C. Lảng sang chủ đề khác để tránh tranh luận",
+        "D. Hỏi khách có muốn bỏ qua tiện ích để giảm giá không"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -57,7 +87,12 @@
       "id": "mcq-007",
       "number": 7,
       "text": "Dự án đã booking nhưng chưa có sổ đỏ từng sản phẩm, khách hàng lo ngại rủi ro. Bạn nên làm gì?",
-      "options": ["A. Giải thích rõ quy trình pháp lý và cam kết minh bạch tiến độ cấp sổ", "B. Khẳng định \"chắc chắn có sổ sớm\" để khách yên tâm", "C. Bảo khách không cần lo, ai cũng mua", "D. Giảm giá để khách chấp nhận rủi ro"],
+      "options": [
+        "A. Giải thích rõ quy trình pháp lý và cam kết minh bạch tiến độ cấp sổ",
+        "B. Khẳng định \"chắc chắn có sổ sớm\" để khách yên tâm",
+        "C. Bảo khách không cần lo, ai cũng mua",
+        "D. Giảm giá để khách chấp nhận rủi ro"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -65,7 +100,12 @@
       "id": "mcq-008",
       "number": 8,
       "text": "Khi cùng khu vực có 3 dự án tương tự, bạn nên tập trung yếu tố nào để tạo khác biệt?",
-      "options": ["A. Giá bán rẻ nhất", "B. Dự án trung tâm nhất", "C. Điểm khác biệt độc đáo trong sản phẩm hoặc chính sách bán hàng", "D. Số lượng căn nhiều nhất"],
+      "options": [
+        "A. Giá bán rẻ nhất",
+        "B. Dự án trung tâm nhất",
+        "C. Điểm khác biệt độc đáo trong sản phẩm hoặc chính sách bán hàng",
+        "D. Số lượng căn nhiều nhất"
+      ],
       "correctAnswer": "C",
       "points": 1
     },
@@ -73,7 +113,12 @@
       "id": "mcq-009",
       "number": 9,
       "text": "Chính sách bán hàng nên được thiết kế theo nguyên tắc nào để đảm bảo hiệu quả lâu dài?",
-      "options": ["A. Linh hoạt, đảm bảo lợi ích cho cả khách hàng mua", "B. Tập trung tối đa vào lợi nhuận ngắn hạn", "C. Chỉ cần nhấn viên nói bộ hiểu, khách hàng không cần biết rõ", "D. Thay đổi liên tục để tạo cảm giác khan hiếm"],
+      "options": [
+        "A. Linh hoạt, đảm bảo lợi ích cho cả khách hàng mua",
+        "B. Tập trung tối đa vào lợi nhuận ngắn hạn",
+        "C. Chỉ cần nhấn viên nói bộ hiểu, khách hàng không cần biết rõ",
+        "D. Thay đổi liên tục để tạo cảm giác khan hiếm"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -81,7 +126,12 @@
       "id": "mcq-010",
       "number": 10,
       "text": "Khi áp dụng tiêu chuẩn ESG trong phát triển dự án, Sale nên làm gì để tận dụng yếu tố này trong bán hàng?",
-      "options": ["A. Bỏ qua vì khách hàng ít quan tâm", "B. Giới thiệu ESG như điểm cộng, xu hướng phát triển đô thị tất yếu tạo giá trị bền vững và giá trị tăng thêm tin dài", "C. Giới thiệu nhưng không giải thích thêm", "D. Dùng tiêu chuẩn ESG để giải thích cho giá cao"],
+      "options": [
+        "A. Bỏ qua vì khách hàng ít quan tâm",
+        "B. Giới thiệu ESG như điểm cộng, xu hướng phát triển đô thị tất yếu tạo giá trị bền vững và giá trị tăng thêm tin dài",
+        "C. Giới thiệu nhưng không giải thích thêm",
+        "D. Dùng tiêu chuẩn ESG để giải thích cho giá cao"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -89,7 +139,12 @@
       "id": "mcq-011",
       "number": 11,
       "text": "Nếu khách hàng hoài nghi về việc CĐT có thực sự triển khai dự án theo đúng các tiêu chuẩn ESG trung thực không thông tin chi tiết, AC sẽ phản hồi ra sao?",
-      "options": ["A. Thuyết phục khách ĐA được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís & ISO 37122", "B. Khẳng định chắc chắn về các giá trị khác", "C. Khẳng định chắc chắn CĐT uy tín sẽ làm đúng cam kết", "D. Xin được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís tương tự các DA ESG khác trên thế giới"],
+      "options": [
+        "A. Thuyết phục khách ĐA được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís & ISO 37122",
+        "B. Khẳng định chắc chắn về các giá trị khác",
+        "C. Khẳng định chắc chắn CĐT uy tín sẽ làm đúng cam kết",
+        "D. Xin được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís tương tự các DA ESG khác trên thế giới"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -97,7 +152,12 @@
       "id": "mcq-012",
       "number": 12,
       "text": "Diện tích Phân khu A theo đồ án quy hoạch chi tiết 1/500 là:",
-      "options": ["A. 953,23 ha", "B. 659,87 ha", "C. 318,32 ha", "D. 480,46 ha"],
+      "options": [
+        "A. 953,23 ha",
+        "B. 659,87 ha",
+        "C. 318,32 ha",
+        "D. 480,46 ha"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -129,7 +189,12 @@
       "id": "mcq-016",
       "number": 16,
       "text": "Thời gian thanh toán chuẩn dự kiến cho sản phẩm xây luôn là:",
-      "options": ["A. 270 ngày", "B. 450–720 ngày", "C. 540–900 ngày", "D. 360 ngày"],
+      "options": [
+        "A. 270 ngày",
+        "B. 450–720 ngày",
+        "C. 540–900 ngày",
+        "D. 360 ngày"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -169,7 +234,12 @@
       "id": "mcq-021",
       "number": 21,
       "text": "CĐT đã sử dụng các công nghệ thi công lần biến và xử lý nền móng đặc biệt nào để xây dựng siêu dự án?",
-      "options": ["A. Dự án áp dụng công nghệ phun cắt tiên tiến, kết hợp nguyên tắc cán bằng đạo – đắp", "B. Lớp cát được phun phủ, nền chắt, thay thế đất yếu", "C. Công nghệ đã làm nền Palm Jumeirah – Dubai", "D. Cả 3 ý trên"],
+      "options": [
+        "A. Dự án áp dụng công nghệ phun cắt tiên tiến, kết hợp nguyên tắc cán bằng đạo – đắp",
+        "B. Lớp cát được phun phủ, nền chắt, thay thế đất yếu",
+        "C. Công nghệ đã làm nền Palm Jumeirah – Dubai",
+        "D. Cả 3 ý trên"
+      ],
       "correctAnswer": "D",
       "points": 1
     },
@@ -177,7 +247,12 @@
       "id": "mcq-022",
       "number": 22,
       "text": "Đối với địa chất của khu vực cần giờ, hàng năm CĐT sẽ làm gì để ổn định địa chất",
-      "options": ["A. Sẽ giá cố cọc bê tông cho nền móng công trình", "B. Cần Giờ có vùng đất đắp, không sạt lở. CĐT sẽ định kỳ nào vệ, duy trì dòng chảy tự nhiên", "C. Một chuyên gia quốc tế về tế lấn biển xử lý", "D. Cả 3 ý trên"],
+      "options": [
+        "A. Sẽ giá cố cọc bê tông cho nền móng công trình",
+        "B. Cần Giờ có vùng đất đắp, không sạt lở. CĐT sẽ định kỳ nào vệ, duy trì dòng chảy tự nhiên",
+        "C. Một chuyên gia quốc tế về tế lấn biển xử lý",
+        "D. Cả 3 ý trên"
+      ],
       "correctAnswer": "B",
       "points": 1
     },
@@ -193,7 +268,12 @@
       "id": "mcq-024",
       "number": 24,
       "text": "CĐT cam kết gì trong hợp đồng mua bán liên quan đến nền móng công trình",
-      "options": ["A. Bảo hành nền móng trọn đời", "B. Mời chuyên gia xử lý giúp cho khách hàng", "C. Tăng quà/ tiện ích chưa cho khách hàng", "D. Cam kết mua lại sản phẩm"],
+      "options": [
+        "A. Bảo hành nền móng trọn đời",
+        "B. Mời chuyên gia xử lý giúp cho khách hàng",
+        "C. Tăng quà/ tiện ích chưa cho khách hàng",
+        "D. Cam kết mua lại sản phẩm"
+      ],
       "correctAnswer": "A",
       "points": 1
     },
@@ -201,7 +281,12 @@
       "id": "mcq-025",
       "number": 25,
       "text": "Khách hàng mua sớm sản phẩm DA để đoán sống Hạ tầng Đô là nhưng hạ tầng gì.",
-      "options": ["A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu", "B. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu; Cầu Cần Giờ thay phà Bình Khánh; Cảng Quốc tế Cái Mép - Thị Vải", "C. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển; sân bay Long Thành", "D. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu Cần Giờ thay phà Bình Khánh; Cảng Cái Mép"],
+      "options": [
+        "A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu",
+        "B. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu; Cầu Cần Giờ thay phà Bình Khánh; Cảng Quốc tế Cái Mép - Thị Vải",
+        "C. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển; sân bay Long Thành",
+        "D. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu Cần Giờ thay phà Bình Khánh; Cảng Cái Mép"
+      ],
       "correctAnswer": "B",
       "points": 1
     }

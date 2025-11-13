@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vinhomes Green Paradise Quiz - Làm bài thi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vinhomes Green Paradise Quiz - Làm bài thi"
+    />
     <title>Làm bài thi - Vinhomes Green Paradise Quiz</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/quiz.css">
-</head>
-<body class="quiz-page">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/quiz.css" />
+  </head>
+  <body class="quiz-page">
     <div class="quiz-wrapper">
-        <!-- Quiz Header -->
-        <header class="quiz-header">
-            <div class="quiz-header-content">
-                <div class="quiz-title">
-                    <h1>Vinhomes Green Paradise Quiz</h1>
-                    <p class="user-name">Xin chào, <span id="userName"></span></p>
-                </div>
-                <div class="timer-container">
-                    <div class="timer-label">Thời gian còn lại</div>
-                    <div id="timer" class="timer timer-normal">20:00</div>
-                </div>
-            </div>
-        </header>
+      <!-- Quiz Header -->
+      <header class="quiz-header">
+        <div class="quiz-header-content">
+          <div class="quiz-title">
+            <h1>Vinhomes Green Paradise Quiz</h1>
+            <p class="user-name">Xin chào, <span id="userName"></span></p>
+          </div>
+          <div class="timer-container">
+            <div class="timer-label">Thời gian còn lại</div>
+            <div id="timer" class="timer timer-normal">15:00</div>
+          </div>
+        </div>
+      </header>
 
-        <!-- Progress Bar -->
-        <div class="progress-section">
-            <div class="progress-info">
-                <span>Câu hỏi: <strong><span id="answered-count">0</span>/<span id="total-questions">30</span></strong></span>
-                <span>Đã trả lời: <strong id="answered-percentage">0%</strong></span>
-            </div>
-            <div class="progress-bar">
-                <div id="progress-fill" class="progress-fill"></div>
-            </div>
+      <!-- Progress Bar -->
+      <div class="progress-section">
+        <div class="progress-info">
+          <span
+            >Câu hỏi:
+            <strong
+              ><span id="answered-count">0</span>/<span id="total-questions"
+                >30</span
+              ></strong
+            ></span
+          >
+          <span>Đã trả lời: <strong id="answered-percentage">0%</strong></span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Main Quiz Content -->
+      <main class="quiz-content">
+        <!-- Loading State -->
+        <div id="loading-state" class="loading-state">
+          <div class="loading-spinner-large"></div>
+          <p>Đang tải câu hỏi...</p>
         </div>
 
-        <!-- Main Quiz Content -->
-        <main class="quiz-content">
-            <!-- Loading State -->
-            <div id="loading-state" class="loading-state">
-                <div class="loading-spinner-large"></div>
-                <p>Đang tải câu hỏi...</p>
-            </div>
+        <!-- Questions Container -->
+        <div
+          id="questions-container"
+          class="questions-container"
+          style="display: none"
+        >
+          <!-- Questions will be dynamically loaded here -->
+        </div>
 
-            <!-- Questions Container -->
-            <div id="questions-container" class="questions-container" style="display: none;">
-                <!-- Questions will be dynamically loaded here -->
-            </div>
+        <!-- Submit Section -->
+        <div id="submit-section" class="submit-section" style="display: none">
+          <div class="submit-info">
+            <p>⚠️ Vui lòng kiểm tra kỹ câu trả lời trước khi nộp bài</p>
+            <p>Bạn sẽ không thể chỉnh sửa sau khi nộp bài</p>
+          </div>
+          <button id="submit-btn" class="btn btn-primary btn-large">
+            Nộp bài
+          </button>
+        </div>
+      </main>
 
-            <!-- Submit Section -->
-            <div id="submit-section" class="submit-section" style="display: none;">
-                <div class="submit-info">
-                    <p>⚠️ Vui lòng kiểm tra kỹ câu trả lời trước khi nộp bài</p>
-                    <p>Bạn sẽ không thể chỉnh sửa sau khi nộp bài</p>
-                </div>
-                <button id="submit-btn" class="btn btn-primary btn-large">
-                    Nộp bài
-                </button>
-            </div>
-        </main>
-
-        <!-- Floating Action Button (for mobile scroll to top) -->
-        <button id="scroll-top-btn" class="scroll-top-btn" style="display: none;">
-            ↑
-        </button>
+      <!-- Floating Action Button (for mobile scroll to top) -->
+      <button id="scroll-top-btn" class="scroll-top-btn" style="display: none">
+        ↑
+      </button>
     </div>
 
     <!-- Confirmation Modal -->
-    <div id="submit-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <h3>Xác nhận nộp bài</h3>
-            <p>Bạn có chắc chắn muốn nộp bài không?</p>
-            <p class="modal-warning">Bạn đã trả lời <strong id="modal-answered">0</strong>/<strong id="modal-total">30</strong> câu hỏi</p>
-            <div class="modal-actions">
-                <button id="cancel-submit" class="btn btn-secondary">Hủy</button>
-                <button id="confirm-submit" class="btn btn-primary">Nộp bài</button>
-            </div>
+    <div id="submit-modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h3>Xác nhận nộp bài</h3>
+        <p>Bạn có chắc chắn muốn nộp bài không?</p>
+        <p class="modal-warning">
+          Bạn đã trả lời <strong id="modal-answered">0</strong>/<strong
+            id="modal-total"
+            >30</strong
+          >
+          câu hỏi
+        </p>
+        <div class="modal-actions">
+          <button id="cancel-submit" class="btn btn-secondary">Hủy</button>
+          <button id="confirm-submit" class="btn btn-primary">Nộp bài</button>
         </div>
+      </div>
     </div>
 
     <!-- Scripts -->
@@ -85,5 +105,5 @@
     <script src="js/timer.js"></script>
     <script src="js/scorer.js"></script>
     <script src="js/quiz.js"></script>
-</body>
+  </body>
 </html>

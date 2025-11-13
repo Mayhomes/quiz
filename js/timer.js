@@ -1,6 +1,6 @@
 /**
  * Quiz Timer Module
- * 20-minute countdown timer with auto-submit
+ * 15-minute countdown timer with auto-submit
  * Vinhomes Green Paradise Quiz
  */
 
@@ -180,10 +180,10 @@
     /**
      * Initialize timer when quiz page loads
      * @param {Function} onTimeUp - Callback when time expires
-     * @param {number} durationMinutes - Timer duration in minutes (default: 20)
+     * @param {number} durationMinutes - Timer duration in minutes (default: 15)
      * @returns {QuizTimer} Timer instance
      */
-    function initializeTimer(onTimeUp, durationMinutes = 20) {
+    function initializeTimer(onTimeUp, durationMinutes = 15) {
         const timer = new QuizTimer(durationMinutes, onTimeUp);
         
         // Try to restore previous state (for page refresh)

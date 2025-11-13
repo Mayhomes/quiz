@@ -200,7 +200,7 @@
          * Initialize timer
          */
         initializeTimer() {
-            this.timer = window.QuizTimer.initialize(() => this.autoSubmit(), 20);
+            this.timer = window.QuizTimer.initialize(() => this.autoSubmit(), 15);
         }
 
         /**
