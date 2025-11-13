@@ -8,12 +8,12 @@
     {
       "id": "mcq-026",
       "number": 26,
-      "text": "Vinhomes Green Paradise – Thành phố Xanh – Thông minh – Sinh thái – Tái sinh hàng đầu Thế giới, siêu đô thị ESG++ định hình chuẩn tương lai – Vậy có đầy được hiểu như thế nào?",
+      "text": "Vinhomes Green Paradise – Thành phố Xanh – Thông minh – Sinh thái – Tái sinh hàng đầu Thế giới, siêu đô thị ESG++ định hình chuẩn sống tương lai. Vậy \"++\" ở đây được hiểu như thế nào?",
       "options": [
         "A. Môi trường (Environment)",
-        "B. Môi trường (Environment), Xã hội (Social), Quản trị (Governance)",
+        "B. Môi trường (Environment), Xa hội (Social), Quản trị (Governace)",
         "C. Tái sinh (Regeneration), Thích ứng (Resilience)",
-        "D. Môi trường (Environment), Xã hội (Social), Quản trị (Governance), Tái sinh (Regeneration), Thích ứng (Resilience)"
+        "D. Môi trường (Environment), Xa hội (Social), Quản trị (Governace), Tái sinh (Regeneration), Thích ứng (Resilience)"
       ],
       "correctAnswer": "D",
       "points": 1
@@ -21,7 +21,7 @@
     {
       "id": "mcq-027",
       "number": 27,
-      "text": "Trở thành Global Flagship ESG++ City – Biểu tượng toàn cầu về Đô thị nghỉ dưỡng ESG++. Vinhomes Green Paradise hoàn thành được kỷ vọng sẽ thu hút bao nhiêu lượt du khách mỗi năm?",
+      "text": "Trở thành Global Flagship ESG++ City – Biểu tượng toàn cầu về Đô thị nghỉ dưỡng ESG++. Vinhomes Green Paradise hoàn thành được kỳ vọng sẽ thu hút bao nhiêu lượt du khách mỗi năm?",
       "options": ["A. 18,7tr", "B. 40tr", "C. 10tr", "D. 30tr"],
       "correctAnswer": "B",
       "points": 1
@@ -42,7 +42,7 @@
     {
       "id": "mcq-029",
       "number": 29,
-      "text": "Nhờ không khí mặn từ biển + ion âm từ rừng. Khu vực Cần giờ có chỉ số chất lượng không khí (AQI) đạt mức tuyệt đối lý tưởng cho sức khỏe, hô hấp và trị liệu là bao nhiêu",
+      "text": "Nhờ không khí mặn từ biển + ion âm từ rừng. Khu vực Cần giờ có chỉ số chất lượng không khí (AQI) đạt mức tuyệt đối lý tưởng cho sức khoẻ, hô hấp và trị liệu là bao nhiêu",
       "options": ["A. >30", "B. <50", "C. >125", "D. <30"],
       "correctAnswer": "D",
       "points": 1
@@ -50,12 +50,12 @@
     {
       "id": "mcq-030",
       "number": 30,
-      "text": "Nằm trong vùng sinh quyển hiếm có trên thế giới được Unesco công nhận. Vinhomes Green Paradise sở hững những giá trị gì từ cần Giờ mà không thành phố nào có được.",
+      "text": "Nằm trong vùng sinh quyển hiếm có trên thế giới được Unesco công nhận. Vinhomes Green Paradise sở hững những giá trị gì từ cần Giờ mà không thành phố ESG nào khác có được.",
       "options": [
-        "A. Giá trị biến vùng trong điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có tại Việt Nam và Thế giới; Giá trị về sức khỏe & Tái sinh độc lập với trách nhiệm Xã hội & Kinh tế bản địa gắn liền với trách nhiệm",
-        "B. Giá trị biến vùng trong điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có; Giá trị về sức khỏe & Tái sinh; hệ thống quản trị thông minh tích hợp toàn nghệ",
-        "C. Giá trị biến vùng trong điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có; Giá trị văn hoá Xã hội & Kinh tế",
-        "D. Giá trị biến vùng trong điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có; Khu vực kinh tế nông nghiệp phát triển"
+        "A. Giá trị bền vững trọng điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có tại Việt Nam và Thế giới; Giá trị về sức khoẻ & Tái sinh độc nhất từ thiên nhiên; Giá trị văn hoá Xã hội & Kinh tế bản địa gắn liền với trách nhiệm",
+        "B. Giá trị bền vững trọng điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có tại Việt Nam và Thế giới; Giá trị về sức khoẻ & Tái sinh độc nhất từ thiên nhiên; Giá trị văn hoá Xã hội & Kinh tế bản địa gắn liền với trách nhiệm; hệ thống quản trị thông minh tích hợp công nghệ",
+        "C. Giá trị bền vững trọng điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có tại Việt Nam và Thế giới; Giá trị văn hoá Xã hội & Kinh tế bản địa gắn liền với trách nhiệm",
+        "D. Giá trị bền vững trọng điểm bảo tồn của Unesco; Giá trị thiên nhiên hiếm có tại Việt Nam và Thế giới; Khu vực kinh tế nông nghiệp phát triển ; Giá trị văn hoá Xã hội & Kinh tế bản địa gắn liền với trách nhiệm"
       ],
       "correctAnswer": "A",
       "points": 1
@@ -76,10 +76,10 @@
     {
       "id": "mcq-032",
       "number": 32,
-      "text": "Câu chuyện truyền thống của dự án Vinhomes Green Paradise – Siêu đô thị ESG++ Xanh – Thông minh – Sinh thái – Tái sinh được xây dựng dựa trên:",
+      "text": "Câu chuyện truyền thông của DA Vinhomes Green Paradise – Siêu độ thị ESG++ Xanh – Thông minh – Sinh thái – Tái sinh hàng đầu thế giới được kể ra sao",
       "options": [
         "A. Siêu đô thị tái sinh tương lai bền vững",
-        "B. Không chỉ là Nơi Ở. Mà là nơi Sống được phục hồi – và Tương lai được Tái sinh",
+        "B. Không chỉ là Nơi Ở. Mà là nơi sự Sống được phục hồi– và Tương lai được Tái sinh",
         "C. Không chỉ là Chuẩn mực Xanh. Mà là Biểu tượng Tái sinh – Sống có Ý nghĩa, có Chiều Sâu, và có Di sản.",
         "D. Cả 3 ý trên đều đúng"
       ],
@@ -89,10 +89,10 @@
     {
       "id": "mcq-033",
       "number": 33,
-      "text": "Turbine điện gió ngoài khơi tại Dự án Cần Giờ được xây dựng cách Dự án bao nhiêu km? và tại sao lại có turbine điện gió ngoài cách đó",
+      "text": "Turbine điện gió ngoài khơi tại DA Cần Giờ được xây dựng cách DA bao nhiêu km? và tại sao lại được đặt ở khoảng cách đó",
       "options": [
-        "A. 20km. Để đảm bảo thiếu chuẩn thiết kế và tăng giá trị BĐS",
-        "B. 20km. Để giảm tiếng ồn cạnh quạt, chống ô nhiễm theo tiêu chuẩn ESG",
+        "A. 20km. Để đảm bảo thiêu chuẩn thiết kế và tăng giá trị BĐS",
+        "B. 20km. Để giảm tiếng ồn cánh quạt, chống ô nhiễm âm thanh theo tiêu chuẩn ESG",
         "C. 5km. Để tiết kiệm chi phí",
         "D. 5km. Để dễ dàng vận hành"
       ],
@@ -105,7 +105,7 @@
       "text": "Bộ đôi sân golf 18 hố tại Dự án rộng bao nhiêu hecta, do ai thiết kế",
       "options": [
         "A. 67ha. Sân East Sunrise do Robert Trent Jones Jr. thiết kế, sân West Sunset được thiết kế bởi Tiger Woods.",
-        "B. 67ha. Sân East Sunrise do Robert Trent Jones Jr. thiết kế, sân East Sunrise được thiết kế bởi Tiger Woods.",
+        "B. 67ha. Sân West Sunset do Robert Trent Jones Jr. thiết kế, sân East Sunrise được thiết kế bởi Tiger Woods.",
         "C. 57ha. Sân East Sunrise do Robert Trent Jones Jr. thiết kế, sân West Sunset được thiết kế bởi Tiger Woods.",
         "D. 57ha. Sân East Sunrise do tư vấn kiến trúc Gensler thiết kế, sân West Sunset được thiết kế bởi Tiger Woods."
       ],
@@ -128,12 +128,12 @@
     {
       "id": "mcq-036",
       "number": 36,
-      "text": "Vingroup công bố ra mắt Vin New Horizon - chuỗi dịch vụ và đô thị hưu trí, dưỡng lão cao cấp quốc tế đầu tiên tại Việt Nam đưa trên những trụ cột thương hiệu nào",
+      "text": "Vingroup công bố ra mắt Vin New Horizon - chuỗi dịch vụ và đô thị hưu trí, dưỡng lão cao cấp chuẩn quốc tế đầu tiên tại Việt Nam dựa trên những trụ cột phát triển nào",
       "options": [
-        "A. Sức khỏe - Tân hưởng - Hạnh phúc - Gắn kết - Trường thọ - Phú quý",
-        "B. Sức khỏe - Tân hưởng - Hạnh phúc - Gắn kết - Trường thọ - An nhiên",
+        "A. Sức khỏe - Tận hưởng - Hạnh phúc - Gắn kết - Trường thọ - Phúq uý",
+        "B. Sức khỏe - Tận hưởng - Hạnh phúc - Gắn kết - Trường thọ - An nhiên",
         "C. Sức khỏe - Hạnh phúc - Gắn kết - Trường thọ - An nhiên",
-        "D. Sức khỏe - Tân hưởng - Hạnh phúc - Gắn kết - An nhiên - Phú quý"
+        "B. Sức khỏe - Tận hưởng - Hạnh phúc - Gắn kết - Trường thọ - An nhiên- Phú quý"
       ],
       "correctAnswer": "B",
       "points": 1
@@ -141,11 +141,11 @@
     {
       "id": "mcq-037",
       "number": 37,
-      "text": "Tiến độ công bố của nút giao thông kết nối cao tốc Bến Lức - Long Thành với đường Rừng Sác có chi phí bao nhiêu, khởi công và hoàn thành khi nào?",
+      "text": "Tiến độ công bố của nút giao thông kết nối cao tốc Bến Lức - Long Thành với đường Rừng Sác có chi phí đầy tư bao nhiêu, khởi công và hoàn thành khi nào?",
       "options": [
-        "A. Tổng vốn gần 3.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2026",
+        "A. Tổng vốn gần 3.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
         "B. Tổng vốn gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
-        "C. Tổng vốn gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2027 và hoàn thành năm 2029",
+        "C. Tổng vốn gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2027và hoàn thành năm 2029",
         "D. Tổng vốn gần 2.500 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028."
       ],
       "correctAnswer": "B",
@@ -178,7 +178,7 @@
       "text": "Khí hậu Cần Giờ khác biệt so với trung tâm TP.HCM ở điểm nào sau đây?",
       "options": [
         "A. Nhiệt độ cao hơn do gần biển",
-        "B. Không có mưa mưa rõ rệt",
+        "B. Không có mùa mưa rõ rệt",
         "C. Nhiệt độ thấp hơn 2–3°C",
         "D. Có mưa hàng ngày"
       ],
@@ -205,7 +205,7 @@
       "options": [
         "A. Mật độ xây dựng thấp",
         "B. Nhiệt độ ổn định quanh năm",
-        "C. Khoảng sân biển phong phú",
+        "C. Khoáng sản biển phong phú",
         "D. Có nhiều khu công nghiệp lân cận"
       ],
       "correctAnswer": "A",
@@ -240,7 +240,7 @@
     {
       "id": "mcq-045",
       "number": 45,
-      "text": "Trong các yếu tối nêu sau đây, yếu tố nào là \"cú hích\" trực tiếp và mạnh nhất thúc đẩy giá trị bất động sản Vinhomes Green Paradise Cần Giờ?",
+      "text": "Trong các yếu tối nêu sau đây,yếu tố nào là \"cú hích\" trực tiếp vàmạnh nhất thúc đẩy giá trị bất động sản VinhomesGreenParadise Cần Giờ?",
       "options": [
         "A. Cầu Cần Giờ kết nối Nhà Bè – Cần Giờ",
         "B. Tuyến Tàu Cao Tốc Metro số 2",
@@ -253,11 +253,11 @@
     {
       "id": "mcq-046",
       "number": 46,
-      "text": "Trong xu thế đô thị hóa bền vững, nhà đầu tư chọn Vinhomes Green Paradise Cần Giờ vì:",
+      "text": "Trong xu thế đô thị hóa bền vững, nhà đầu tư chọn VinhomesGreenParadise Cần Giờ vì:",
       "options": [
-        "A. Vị thế độc tôn – quy đất ven biển duy nhất và tầm nhìn chiến lược tiên phong phát triển kinh tế xanh tại TP.HCM",
-        "B. Dễ mua bán đầu tư lướt sóng ngắn hạn",
-        "C. Vị thế độc tôn - Không cần hạ tầng",
+        "A. Vị thế độc tôn – quỹ đất ven biển duy nhất vàtầm nhìn chiến lược tiên phong phát triể kinh tế xanh tạiTP.HCM",
+        "B. Dễ mua bán đầutư lướt sóng ngắn hạn",
+        "C. Vịthế độc tôn -Không cần hạ tầng",
         "D. Nhiều khu công nghiệp lân cận"
       ],
       "correctAnswer": "A",
@@ -292,7 +292,7 @@
         "A. Hỗ trợ lãi suất, tiến độ thanh toán linh hoạt & quà tặng đặc quyền",
         "B. Chỉ chấp nhận thanh toán 100%",
         "C. Có hỗ trợ ngân hàng",
-        "D. Có ưu đãi tái chính"
+        "D. Có ưu đãi tài chính"
       ],
       "correctAnswer": "A",
       "points": 1
@@ -302,8 +302,8 @@
       "number": 50,
       "text": "Yếu tố ESG trong dự án được thể hiện rõ nhất qua:",
       "options": [
-        "A. Bảo tồn hệ sinh thái tự nhiên và phát triển đô thị xanh theo đuổi các chứng chỉ Xanh Quốc tế",
-        "B. Mở rộng diện tích xây dựng để tăng mật độ sổ sở",
+        "A. Bảotồn hệ sinh thái tự nhiênvà phát triển đôthị xanh theo đuổi các chứng chỉ Xanh Quốc tế",
+        "B. Mở rộng diện tích xây dựng để tăng mật độ dân số",
         "C. Ưu tiên hiện đại hóa toàn bộ khu đô thị",
         "D. Không quan tâm đến yếu tố môi trường"
       ],
@@ -315,10 +315,10 @@
       "number": 51,
       "text": "Tiêu chuẩn vận hành và quản lý của Paradise Cần Giờ dự kiến theo mô hình:",
       "options": [
-        "A. Đô thị thông thường",
+        "A. Do Nhà nước phụ trách",
         "B. Vận hành chuyên nghiệp theo chuẩn Vinhomes & Vinpearl",
         "C. Giao cho cư dân tự quản",
-        "D. Hợp tác cộng đồng"
+        "D. Hợp tác cộngđồng"
       ],
       "correctAnswer": "B",
       "points": 1

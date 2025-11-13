@@ -34,12 +34,12 @@
     {
       "id": "mcq-003",
       "number": 3,
-      "text": "Nếu khách hàng muốn \"giữ cân\" nhưng chưa có khả năng thanh toán, bạn nên xử lý thế nào?",
+      "text": "Nếu khách hàng muốn \"giữ căn\" nhưng chưa có khả năng thanh toán, bạn nên xử lý thế nào?",
       "options": [
-        "A. Cho giữ theo cảm tình, không cần xác nhận",
+        "A. Giữ căn theo cảm tính, không cần xác nhận",
         "B. Giải thích rõ chính sách và đề xuất phương án đặt cọc giữ chỗ hợp lệ",
         "C. Cho giữ miễn phí để giữ thiện cảm khách hàng",
-        "D. Để nghị khách đợi đợt sau mới mua"
+        "D. Đề nghị khách đợi đợt sau mới mua"
       ],
       "correctAnswer": "B",
       "points": 1
@@ -73,7 +73,7 @@
     {
       "id": "mcq-006",
       "number": 6,
-      "text": "Khi khách hàng nói: \"Tôi chỉ quan tâm giá đất, tiền nội khu không quan trọng\", bạn nên phản hồi ra sao?",
+      "text": "Khi khách hàng nói: \"Tôi chỉ quan tâm giá đất, tiện ích nội khu không quan trọng\", bạn nên phản hồi ra sao?",
       "options": [
         "A. Đồng ý với khách, tập trung nói về giá",
         "B. Giải thích tiện ích là yếu tố bảo toàn và tăng giá trị tài sản lâu dài",
@@ -102,7 +102,7 @@
       "text": "Khi cùng khu vực có 3 dự án tương tự, bạn nên tập trung yếu tố nào để tạo khác biệt?",
       "options": [
         "A. Giá bán rẻ nhất",
-        "B. Dự án trung tâm nhất",
+        "B. Vị trí gần trung tâm nhất",
         "C. Điểm khác biệt độc đáo trong sản phẩm hoặc chính sách bán hàng",
         "D. Số lượng căn nhiều nhất"
       ],
@@ -116,7 +116,7 @@
       "options": [
         "A. Linh hoạt, đảm bảo lợi ích cho cả khách hàng mua",
         "B. Tập trung tối đa vào lợi nhuận ngắn hạn",
-        "C. Chỉ cần nhấn viên nói bộ hiểu, khách hàng không cần biết rõ",
+        "C. Chỉ cần nhân viên nội bộ hiểu, khách hàng không cần biết rõ",
         "D. Thay đổi liên tục để tạo cảm giác khan hiếm"
       ],
       "correctAnswer": "A",
@@ -128,9 +128,9 @@
       "text": "Khi áp dụng tiêu chuẩn ESG trong phát triển dự án, Sale nên làm gì để tận dụng yếu tố này trong bán hàng?",
       "options": [
         "A. Bỏ qua vì khách hàng ít quan tâm",
-        "B. Giới thiệu ESG như điểm cộng, xu hướng phát triển đô thị tất yếu tạo giá trị bền vững và giá trị tăng thêm tin dài",
-        "C. Giới thiệu nhưng không giải thích thêm",
-        "D. Dùng tiêu chuẩn ESG để giải thích cho giá cao"
+        "B. Giới thiệu ESG như điểm cộng, xu hướng phát triển đô thị tất yếu tạo giá trị bền vững và gia tăng niềm tin đầu tư",
+        "C. Giới thiệu nhưng không giải thích thêm, không phân tích giá trị của tiêu chuẩn này",
+        "D. Dùng tiêu chuẩn ESG để lý giải cho giá cao"
       ],
       "correctAnswer": "B",
       "points": 1
@@ -138,12 +138,12 @@
     {
       "id": "mcq-011",
       "number": 11,
-      "text": "Nếu khách hàng hoài nghi về việc CĐT có thực sự triển khai dự án theo đúng các tiêu chuẩn ESG trung thực không thông tin chi tiết, anh/chị sẽ phản hồi ra sao?",
+      "text": "Nếu khách hàng hoài nghi về việc CĐT có thực sự triển khai dự án theo đuổi các tiêu chuẩn ESG hay chỉ là công vụ truyền thông quảng cáo. AC sẽ phản hồi ra sao?",
       "options": [
-        "A. Thuyết phục khách ĐA được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís & ISO 37122",
-        "B. Khẳng định chắc chắn về các giá trị khác",
+        "A. Thuyết phục khách DA được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis & ISO 37122",
+        "B. Tập trung nói về các giá trị khác",
         "C. Khẳng định chắc chắn CĐT uy tín sẽ làm đúng cam kết",
-        "D. Xin được bảo chứng bởi các tiêu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Communitís tương tự các DA ESG khác trên thế giới"
+        "D. DA được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis tương tự các DA ESG khác trên thế giới"
       ],
       "correctAnswer": "A",
       "points": 1
@@ -233,11 +233,11 @@
     {
       "id": "mcq-021",
       "number": 21,
-      "text": "CĐT đã sử dụng các công nghệ thi công lần biến và xử lý nền móng đặc biệt nào để xây dựng siêu dự án?",
+      "text": "CĐT đã sử dụng các công nghệ thi công lấn biển và xử lý nền móng đặc biệt nào để xây dựng siêu dự án?",
       "options": [
-        "A. Dự án áp dụng công nghệ phun cắt tiên tiến, kết hợp nguyên tắc cán bằng đạo – đắp",
-        "B. Lớp cát được phun phủ, nền chắt, thay thế đất yếu",
-        "C. Công nghệ đã làm nền Palm Jumeirah – Dubai",
+        "A. Dự án áp dụng công nghệ phun cát tiên tiến, kết hợp nguyên tắc cân bằng đào – đắp, tận dụng vật liệu trong phạm vi quy hoạch. Giải pháp giúp giảm khai thác ngoài khơi, hạn chế xáo trộn môi trường.",
+        "B. Lớp cát được phun phủ, nén chặt, thay thế đất yếu – tạo nền vững chắc cho toàn khu.",
+        "C. công nghệ đã làm nên Palm Jumeirah – Dubai, nay được nâng cấp phù hợp đặc tính địa chất Việt Nam.",
         "D. Cả 3 ý trên"
       ],
       "correctAnswer": "D",
@@ -246,11 +246,11 @@
     {
       "id": "mcq-022",
       "number": 22,
-      "text": "Đối với địa chất của khu vực cần giờ, hàng năm CĐT sẽ làm gì để ổn định địa chất",
+      "text": "Đối với địa chất của khu vực Cần Giờ, hàng năm CĐT sẽ làm gì để ổn định địa chất",
       "options": [
-        "A. Sẽ giá cố cọc bê tông cho nền móng công trình",
-        "B. Cần Giờ có vùng đất đắp, không sạt lở. CĐT sẽ định kỳ nào vệ, duy trì dòng chảy tự nhiên",
-        "C. Một chuyên gia quốc tế về tế lấn biển xử lý",
+        "A. Sẽ gia cố cọc bổ sung cho nền móng công trình",
+        "B. Cần Giờ là vùng bồi đắp, không sạt lở. CĐT sẽ định kỳ nạo vệt, duy trì dòng chảy tự nhiên, tạo các bãi biển sạch đẹp cho cộng đồng",
+        "C. Mời chuyên gia quốc tế về lấn biển xử lý khi có vấn đề nền móng địa chất phát sinh",
         "D. Cả 3 ý trên"
       ],
       "correctAnswer": "B",
@@ -259,7 +259,7 @@
     {
       "id": "mcq-023",
       "number": 23,
-      "text": "Công trình biệt thự tầng cọc ép ra sao để đảm bảo chất lượng công trình:",
+      "text": "Công trình biệt thự thấp tầng cọc ép ra sao để đảm bảo chất lượng công trình:",
       "options": ["A. 18-24m", "B. 36-40m", "C. 65-80m", "D. 38-45m"],
       "correctAnswer": "B",
       "points": 1
@@ -269,9 +269,9 @@
       "number": 24,
       "text": "CĐT cam kết gì trong hợp đồng mua bán liên quan đến nền móng công trình",
       "options": [
-        "A. Bảo hành nền móng trọn đời",
+        "A. Bảo hành nền móng trọn đời, nêu có lún sụt sẽ chủ động sửa chữa bằng chi phí của mình",
         "B. Mời chuyên gia xử lý giúp cho khách hàng",
-        "C. Tăng quà/ tiện ích chưa cho khách hàng",
+        "C. Tặng quà/ tiền sửa chữa cho khách hàng",
         "D. Cam kết mua lại sản phẩm"
       ],
       "correctAnswer": "A",
@@ -280,12 +280,12 @@
     {
       "id": "mcq-025",
       "number": 25,
-      "text": "Khách hàng mua sớm sản phẩm DA để đoán sống Hạ tầng đó là nhưng hạ tầng gì.",
+      "text": "Khách hàng mua sớm sản phẩm DA để đoán sóng Hạ tầng. Đó là những hạ tầng gì.",
       "options": [
-        "A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu",
-        "B. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ – Vũng Tàu; Cầu Cần Giờ thay phà Bình Khánh; Cảng Quốc tế Cái Mép - Thị Vải",
-        "C. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu vượt biển; sân bay Long Thành",
-        "D. Cao tốc tàu điện metro; Cao tốc Bến Lức – Long Thành; Cầu Cần Giờ thay phà Bình Khánh; Cảng Cái Mép"
+        "A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ",
+        "B. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; sân bay Long Thành; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ",
+        "C. A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; sân bay Long Thành; Cầu Bình Khánh và Phước Khánh; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ",
+        "D. A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ"
       ],
       "correctAnswer": "B",
       "points": 1
