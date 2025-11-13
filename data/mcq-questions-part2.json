@@ -29,7 +29,7 @@
     {
       "id": "mcq-028",
       "number": 24,
-      "text": "Tuyến tàu điện cao tốc metro Q7 đi Cần Giờ có vận tốc & thời gian di chuyển như thế nào",
+      "text": "Tuyến tàu điện cao tốc Metro xuất phát từ Bến Thành Q1 đi Cần Giờ có vận tốc & thời gian di chuyển như thế nào?",
       "options": [
         "A. Vận tốc 250km/h, 16 phút di chuyển",
         "B. Vận tốc 300km/h, 16 phút di chuyển",
@@ -143,10 +143,10 @@
       "number": 33,
       "text": "Tiến độ công bố của nút giao thông kết nối cao tốc Bến Lức - Long Thành với đường Rừng Sác có chi phí đầy tư bao nhiêu, khởi công và hoàn thành khi nào?",
       "options": [
-        "A. Tổng vốn gần 3.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
-        "B. Tổng vốn gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
-        "C. Tổng vốn gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2027 và hoàn thành năm 2029",
-        "D. Tổng vốn gần 2.500 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028."
+        "A. Chi phí đầu tư gần 3.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
+        "B. Chi phí đầu tư gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028",
+        "C. Chi phí đầu tư gần 2.970 tỉ đồng, dự kiến khởi công đầu năm 2027 và hoàn thành năm 2029",
+        "D. Chi phí đầu tư gần 2.500 tỉ đồng, dự kiến khởi công đầu năm 2026 và hoàn thành năm 2028."
       ],
       "correctAnswer": "B",
       "points": 1
@@ -154,7 +154,7 @@
     {
       "id": "mcq-038",
       "number": 34,
-      "text": "Cần Giờ là huyện duy nhất của TP.HCM có đường bờ biển dài hơn 20 km, tiếp giáp trực tiếp với:",
+      "text": "Cần Giờ là huyện duy nhất của TP.HCM có đường bờ biển dài hơn 121km, tiếp giáp trực tiếp với:",
       "options": ["A. Vũng Tàu", "B. Long An", "C. Biển Đông", "D. Đồng Nai"],
       "correctAnswer": "C",
       "points": 1
