@@ -7,72 +7,72 @@
   },
   "questions": [
     {
-      "id": "essay-052",
-      "number": 52,
+      "id": "essay-049",
+      "number": 49,
       "text": "\"Bộ ngũ\" hạ tầng chiến lược – Lực đẩy chưa từng có cho Cần Giờ gồm những hạng mục gì?",
       "hint": "gợi ý: tuyến đường sắt đô thị tốc độ cao trung tâm (Bến Thành) TP.HCM - Cần Giờ; cầu vượt biển Cần Giờ - Vũng Tàu; cầu Cần Giờ (thay phà Bình Khánh); siêu cảng Cái Mép - Thị Vài - Cần; kết nối cảng hàng không quốc tế Long Thành nhờ cao tốc Bến Lức - Long Thành",
       "points": 5,
       "category": "infrastructure"
     },
     {
-      "id": "essay-053",
-      "number": 53,
+      "id": "essay-050",
+      "number": 50,
       "text": "Địa thế tự nhiên hiếm có của Dự án Vinhomes Green Paradise của Cần Giờ thể hiện ở những đặc điểm nào",
       "hint": "gợi ý: Trước mặt là biển Thái Bình Dương, sau lưng là khu dự trữ sinh quyển rừng ngập mặn 75.000ha được UNESCO công nhận)",
       "points": 5,
       "category": "natural_advantages"
     },
     {
-      "id": "essay-054",
-      "number": 54,
+      "id": "essay-051",
+      "number": 51,
       "text": "Trình bày rõ sự khác biệt giữa chính sách thanh toán sớm và chính sách vay vốn ngân hàng trong bảng CSBH dự kiến của Vinhomes Green Paradise.",
       "hint": "→Gợi ý: nói về % chiết khấu, tỷ lệ vay, đối tượng áp dụng.",
       "points": 5,
       "category": "payment_policy"
     },
     {
-      "id": "essay-055",
-      "number": 55,
+      "id": "essay-052",
+      "number": 52,
       "text": "Giải thích ý nghĩa của cụm từ \"HTLS 70%\" trong chính sách bán hàng.",
       "hint": "→Khách hàng được hưởng gì khi chọn gói này? Chủ đầu tư chịu phần nào?",
       "points": 5,
       "category": "financing_policy"
     },
     {
-      "id": "essay-056",
-      "number": 56,
+      "id": "essay-053",
+      "number": 53,
       "text": "Phân tích lợi ích của khách hàng khi chọn thanh toán sớm – chiết khấu 7,5% so với việc chọn vay HTLS 24 tháng (+7%).",
       "hint": "→Tình huống: cùng mua 1 sản phẩm trị giá 10 tỷ, nên chọn phương án nào nếu khách có sẵn dòng tiền?",
       "points": 5,
       "category": "financial_analysis"
     },
     {
-      "id": "essay-057",
-      "number": 57,
+      "id": "essay-054",
+      "number": 54,
       "text": "Nếu một khách hàng muốn \"đầu tư ngắn hạn 2 năm\" – anh/chị nên khuyên họ chọn gói thanh toán hoặc HTLS nào? Vì sao?",
       "hint": "",
       "points": 5,
       "category": "investment_advisory"
     },
     {
-      "id": "essay-058",
-      "number": 58,
+      "id": "essay-055",
+      "number": 55,
       "text": "Một khách hàng trẻ tuổi, chưa có dòng tiền mạnh nhưng có tài sản thế chấp — anh/chị sẽ tư vấn họ chọn hình thức thanh toán nào để tối ưu vốn?",
       "hint": "",
       "points": 5,
       "category": "customer_advisory"
     },
     {
-      "id": "essay-059",
-      "number": 59,
+      "id": "essay-056",
+      "number": 56,
       "text": "So sánh tiến độ thanh toán 450–720 ngày của sản phẩm \"xây luôn\" và \"giãn xây\".",
       "hint": "→Tác động đến dòng tiền, tiến độ xây dựng và khả năng nhận nhà.",
       "points": 5,
       "category": "payment_comparison"
     },
     {
-      "id": "essay-060",
-      "number": 60,
+      "id": "essay-057",
+      "number": 57,
       "text": "Trong quá trình tư vấn, nếu khách hàng băn khoăn \"chi phí cộng thêm +11,5% khi vay HTLS 30 tháng là gì?\", anh/chị sẽ giải thích thế nào để khách dễ hiểu và vẫn cảm thấy lợi?",
       "hint": "",
       "points": 5,

@@ -4,23 +4,22 @@ A timed quiz web application with randomized questions that saves results to Goo
 
 ## Project Overview
 
-This application allows users to take a 20-minute timed quiz with randomly selected questions. Each quiz consists of 28 multiple-choice questions and 2 essay questions. Results are automatically saved to Google Sheets, and users receive only their total score.
+This application allows users to take a 15-minute timed quiz with randomized questions. Each quiz consists of multiple-choice questions selected from a pool of 48 questions. Results are automatically saved to Google Sheets, and users receive only their total score.
 
 ## Features
 
-- **Random Question Selection**: 28 MCQs randomly selected from a pool of 51
-- **Essay Questions**: 2 essay questions always included at the end
-- **20-Minute Timer**: Countdown timer with auto-submit
+- **Random Question Selection**: MCQs randomly selected from a pool of 48
+- **15-Minute Timer**: Countdown timer with auto-submit
 - **Google Sheets Integration**: Automatic data storage
 - **Score Summary**: Users see only total score, not individual answers
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## Quiz Structure
 
-- **Master Set**: 51 MCQs + 9 Essay Questions
-- **Per User**: 28 MCQs + 2 Essay Questions = 30 Total Questions
-- **Time Limit**: 20 minutes
-- **Scoring**: MCQs (1 point each), Essays (5 points each)
+- **Master Set**: 48 MCQs + 9 Essay Questions
+- **Per User**: Randomized MCQs from the pool
+- **Time Limit**: 15 minutes
+- **Scoring**: MCQs (1 point each)
 
 ## Taskmaster-AI Integration
 

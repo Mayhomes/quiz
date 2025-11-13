@@ -1,8 +1,8 @@
 {
   "metadata": {
     "part": "1 of 2",
-    "questionsRange": "1-25",
-    "totalInPart": 25
+    "questionsRange": "1-21",
+    "totalInPart": 21
   },
   "questions": [
     {
@@ -19,34 +19,8 @@
       "points": 1
     },
     {
-      "id": "mcq-002",
-      "number": 2,
-      "text": "Chính sách bán hàng nên được điều chỉnh theo hướng nào khi thị trường đang chậm, thanh khoản thấp?",
-      "options": [
-        "A. Tăng giá để tạo cảm giác \"hàng hiếm\"",
-        "B. Linh hoạt về tiến độ thanh toán và tăng ưu đãi thực tế",
-        "C. Cắt toàn bộ khuyến mãi để giữ biên lợi nhuận",
-        "D. Giữ nguyên chính sách, không thay đổi"
-      ],
-      "correctAnswer": "B",
-      "points": 1
-    },
-    {
-      "id": "mcq-003",
-      "number": 3,
-      "text": "Nếu khách hàng muốn \"giữ căn\" nhưng chưa có khả năng thanh toán, bạn nên xử lý thế nào?",
-      "options": [
-        "A. Giữ căn theo cảm tính, không cần xác nhận",
-        "B. Giải thích rõ chính sách và đề xuất phương án đặt cọc giữ chỗ hợp lệ",
-        "C. Cho giữ miễn phí để giữ thiện cảm khách hàng",
-        "D. Đề nghị khách đợi đợt sau mới mua"
-      ],
-      "correctAnswer": "B",
-      "points": 1
-    },
-    {
       "id": "mcq-004",
-      "number": 4,
+      "number": 2,
       "text": "Với chính sách \"thanh toán nhanh – chiết khấu cao\", điều nào sau đây là rủi ro lớn nhất nếu không truyền thông đúng cách?",
       "options": [
         "A. Khách hàng hiểu sai về giá trị thực của sản phẩm",
@@ -59,7 +33,7 @@
     },
     {
       "id": "mcq-005",
-      "number": 5,
+      "number": 3,
       "text": "Dự án của bạn nằm xa trung tâm, nhưng có hạ tầng kết nối mạnh. Bạn nên làm gì để biến yếu tố này thành lợi thế bán hàng?",
       "options": [
         "A. Nhấn mạnh sự yên tĩnh, xa ồn ào",
@@ -72,7 +46,7 @@
     },
     {
       "id": "mcq-006",
-      "number": 6,
+      "number": 4,
       "text": "Khi khách hàng nói: \"Tôi chỉ quan tâm giá đất, tiện ích nội khu không quan trọng\", bạn nên phản hồi ra sao?",
       "options": [
         "A. Đồng ý với khách, tập trung nói về giá",
@@ -84,21 +58,8 @@
       "points": 1
     },
     {
-      "id": "mcq-007",
-      "number": 7,
-      "text": "Dự án đã booking nhưng chưa có sổ đỏ từng sản phẩm, khách hàng lo ngại rủi ro. Bạn nên làm gì?",
-      "options": [
-        "A. Giải thích rõ quy trình pháp lý và cam kết minh bạch tiến độ cấp sổ",
-        "B. Khẳng định \"chắc chắn có sổ sớm\" để khách yên tâm",
-        "C. Bảo khách không cần lo, ai cũng mua",
-        "D. Giảm giá để khách chấp nhận rủi ro"
-      ],
-      "correctAnswer": "A",
-      "points": 1
-    },
-    {
       "id": "mcq-008",
-      "number": 8,
+      "number": 5,
       "text": "Khi cùng khu vực có 3 dự án tương tự, bạn nên tập trung yếu tố nào để tạo khác biệt?",
       "options": [
         "A. Giá bán rẻ nhất",
@@ -110,21 +71,8 @@
       "points": 1
     },
     {
-      "id": "mcq-009",
-      "number": 9,
-      "text": "Chính sách bán hàng nên được thiết kế theo nguyên tắc nào để đảm bảo hiệu quả lâu dài?",
-      "options": [
-        "A. Linh hoạt, đảm bảo lợi ích cho cả khách hàng mua",
-        "B. Tập trung tối đa vào lợi nhuận ngắn hạn",
-        "C. Chỉ cần nhân viên nội bộ hiểu, khách hàng không cần biết rõ",
-        "D. Thay đổi liên tục để tạo cảm giác khan hiếm"
-      ],
-      "correctAnswer": "A",
-      "points": 1
-    },
-    {
       "id": "mcq-010",
-      "number": 10,
+      "number": 6,
       "text": "Khi áp dụng tiêu chuẩn ESG trong phát triển dự án, Sale nên làm gì để tận dụng yếu tố này trong bán hàng?",
       "options": [
         "A. Bỏ qua vì khách hàng ít quan tâm",
@@ -137,20 +85,20 @@
     },
     {
       "id": "mcq-011",
-      "number": 11,
-      "text": "Nếu khách hàng hoài nghi về việc CĐT có thực sự triển khai dự án theo đuổi các tiêu chuẩn ESG hay chỉ là công vụ truyền thông quảng cáo. Anh/chị sẽ phản hồi ra sao?",
+      "number": 7,
+      "text": "Nếu khách hàng hoài nghi về việc CĐT có thực sự triển khai dự án theo đuổi các tiêu chuẩn ESG hay chỉ là công vụ truyền thông quảng cáo. AC sẽ phản hồi ra sao?",
       "options": [
-        "A. Thuyết phục khách Dự án được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis & ISO 37122",
+        "A. Thuyết phục khách DA được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis & ISO 37122",
         "B. Tập trung nói về các giá trị khác",
         "C. Khẳng định chắc chắn CĐT uy tín sẽ làm đúng cam kết",
-        "D. Dự án được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis tương tự các Dự án ESG khác trên thế giới"
+        "D. DA được bảo chứng bởi các tiểu chuẩn/ chứng chỉ Xanh Thế giới BREEAM Comminitis tương tự các DA ESG khác trên thế giới"
       ],
       "correctAnswer": "A",
       "points": 1
     },
     {
       "id": "mcq-012",
-      "number": 12,
+      "number": 8,
       "text": "Diện tích Phân khu A theo đồ án quy hoạch chi tiết 1/500 là:",
       "options": [
         "A. 953,23 ha",
@@ -163,7 +111,7 @@
     },
     {
       "id": "mcq-013",
-      "number": 13,
+      "number": 9,
       "text": "Khi khách hàng thanh toán sớm, được hưởng mức chiết khấu tối đa bao nhiêu phần trăm?",
       "options": ["A. 5%", "B. 6,5%", "C. 7,5%", "D. 8%"],
       "correctAnswer": "C",
@@ -171,7 +119,7 @@
     },
     {
       "id": "mcq-014",
-      "number": 14,
+      "number": 10,
       "text": "Nếu khách hàng vay gói HTLS 70% trong 24 tháng, chi phí cộng thêm tương ứng là bao nhiêu?",
       "options": ["A. +3,5%", "B. +7%", "C. +11,5%", "D. +17,5%"],
       "correctAnswer": "B",
@@ -179,7 +127,7 @@
     },
     {
       "id": "mcq-015",
-      "number": 15,
+      "number": 11,
       "text": "Ưu đãi dành cho khách hàng thân thiết (VinClub) tối đa lên đến:",
       "options": ["A. 0,3%", "B. 0,4%", "C. 0,5%", "D. 1%"],
       "correctAnswer": "C",
@@ -187,7 +135,7 @@
     },
     {
       "id": "mcq-016",
-      "number": 16,
+      "number": 12,
       "text": "Thời gian thanh toán chuẩn dự kiến cho sản phẩm xây luôn là:",
       "options": [
         "A. 270 ngày",
@@ -200,7 +148,7 @@
     },
     {
       "id": "mcq-017",
-      "number": 17,
+      "number": 13,
       "text": "Nếu khách hàng chọn hỗ trợ lãi suất (HTLS) 70% giá trị bất động sản trong 30 tháng, chi phí cộng thêm tương ứng là:",
       "options": ["A. +7%", "B. +11,5%", "C. +14%", "D. +17,5%"],
       "correctAnswer": "B",
@@ -208,7 +156,7 @@
     },
     {
       "id": "mcq-018",
-      "number": 18,
+      "number": 14,
       "text": "Gói HTLS 70% giá trị bất động sản trong 36 tháng có chi phí cộng thêm tương ứng bao nhiêu so với giá gốc?",
       "options": ["A. +7%", "B. +11,5%", "C. +15%", "D. +17,5%"],
       "correctAnswer": "D",
@@ -216,7 +164,7 @@
     },
     {
       "id": "mcq-019",
-      "number": 19,
+      "number": 15,
       "text": "Thời gian thanh toán trọn giá sử dụng đất và thương mại (sản phẩm giãn xây) khoảng bao nhiêu ngày",
       "options": ["A. 180 ngày", "B. 270 ngày", "C. 450 ngày", "D. 540 ngày"],
       "correctAnswer": "B",
@@ -224,7 +172,7 @@
     },
     {
       "id": "mcq-020",
-      "number": 20,
+      "number": 16,
       "text": "Thời điểm khách hàng thanh toán giá trị xây dựng (đối với sản phẩm giãn xây) là sau bao lâu?",
       "options": ["A. 270 ngày", "B. 360 ngày", "C. 540 ngày", "D. 720 ngày"],
       "correctAnswer": "C",
@@ -232,7 +180,7 @@
     },
     {
       "id": "mcq-021",
-      "number": 21,
+      "number": 17,
       "text": "CĐT đã sử dụng các công nghệ thi công lấn biển và xử lý nền móng đặc biệt nào để xây dựng siêu dự án?",
       "options": [
         "A. Dự án áp dụng công nghệ phun cát tiên tiến, kết hợp nguyên tắc cân bằng đào – đắp, tận dụng vật liệu trong phạm vi quy hoạch. Giải pháp giúp giảm khai thác ngoài khơi, hạn chế xáo trộn môi trường.",
@@ -245,11 +193,11 @@
     },
     {
       "id": "mcq-022",
-      "number": 22,
+      "number": 18,
       "text": "Đối với địa chất của khu vực Cần Giờ, hàng năm CĐT sẽ làm gì để ổn định địa chất",
       "options": [
         "A. Sẽ gia cố cọc bổ sung cho nền móng công trình",
-        "B. Cần Giờ là vùng bồi đắp, không sạt lở. CĐT sẽ định kỳ nạo vét, duy trì dòng chảy tự nhiên, tạo các bãi biển sạch đẹp cho cộng đồng",
+        "B. Cần Giờ là vùng bồi đắp, không sạt lở. CĐT sẽ định kỳ nạo vệt, duy trì dòng chảy tự nhiên, tạo các bãi biển sạch đẹp cho cộng đồng",
         "C. Mời chuyên gia quốc tế về lấn biển xử lý khi có vấn đề nền móng địa chất phát sinh",
         "D. Cả 3 ý trên"
       ],
@@ -258,7 +206,7 @@
     },
     {
       "id": "mcq-023",
-      "number": 23,
+      "number": 19,
       "text": "Công trình biệt thự thấp tầng cọc ép ra sao để đảm bảo chất lượng công trình:",
       "options": ["A. 18-24m", "B. 36-40m", "C. 65-80m", "D. 38-45m"],
       "correctAnswer": "B",
@@ -266,7 +214,7 @@
     },
     {
       "id": "mcq-024",
-      "number": 24,
+      "number": 20,
       "text": "CĐT cam kết gì trong hợp đồng mua bán liên quan đến nền móng công trình",
       "options": [
         "A. Bảo hành nền móng trọn đời, nêu có lún sụt sẽ chủ động sửa chữa bằng chi phí của mình",
@@ -279,8 +227,8 @@
     },
     {
       "id": "mcq-025",
-      "number": 25,
-      "text": "Khách hàng mua sớm sản phẩm Dự án để đoán sóng Hạ tầng. Đó là những hạ tầng gì.",
+      "number": 21,
+      "text": "Khách hàng mua sớm sản phẩm DA để đoán sóng Hạ tầng. Đó là những hạ tầng gì.",
       "options": [
         "A. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ",
         "B. Cao tốc tàu điện metro từ trung tâm đến Cần Giờ; Cao tốc Bến Lức – Long Thành; Cầu vượt biển Cần Giờ - Vũng Tàu; sân bay Long Thành; Cầu Cần Giờ thay bến phà Bình Khánh kết nối Đường Rừng Sác và trung tâm TP; Cảng Quốc tế Cái Mếp - Thị Vài và siêu cảng Cần Giờ",
