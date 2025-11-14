@@ -112,7 +112,7 @@
     {
       "id": "mcq-013",
       "number": 9,
-      "text": "Khi khách hàng thanh toán sớm, được hưởng mức chiết khấu tối đa bao nhiêu phần trăm?",
+      "text": "Khi khách hàng thanh toán sớm, được hưởng mức chiết khấu bao nhiêu phần trăm?",
       "options": ["A. 5%", "B. 6,5%", "C. 7,5%", "D. 8%"],
       "correctAnswer": "C",
       "points": 1
