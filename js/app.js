@@ -42,10 +42,10 @@ function handleFormSubmit(event) {
     // Get form values
     const name = document.getElementById('name').value.trim();
     const phone = document.getElementById('phone').value.trim();
-    const agentName = document.getElementById('agentName').value.trim();
+    const team = document.getElementById('team').value.trim();
 
     // Validate all fields
-    if (!validateAllFields(name, phone, agentName)) {
+    if (!validateAllFields(name, phone, team)) {
         return;
     }
 
@@ -53,7 +53,7 @@ function handleFormSubmit(event) {
     const userInfo = {
         name: name,
         phone: phone,
-        agentName: agentName,
+        team: team,
         timestamp: new Date().toISOString(),
         startTime: Date.now()
     };
@@ -87,7 +87,7 @@ function handleFormSubmit(event) {
 /**
  * Validate all form fields
  */
-function validateAllFields(name, phone, agentName) {
+function validateAllFields(name, phone, team) {
     let isValid = true;
 
     // Validate name
@@ -103,9 +103,9 @@ function validateAllFields(name, phone, agentName) {
         isValid = false;
     }
 
-    // Validate agent name
-    if (!agentName || agentName === '') {
-        showFieldError('agentName', 'Vui lòng chọn đại lý');
+    // Validate team (free text, just check not empty)
+    if (!team || team.length < 1) {
+        showFieldError('team', 'Vui lòng nhập đội nhóm');
         isValid = false;
     }
 
@@ -132,11 +132,7 @@ function validateInput(event) {
         }
     }
 
-    if (input.id === 'agentName') {
-        if (value === '') {
-            showFieldError('agentName', 'Vui lòng chọn đại lý');
-        }
-    }
+    // Team field accepts free text, no validation needed
 }
 
 /**

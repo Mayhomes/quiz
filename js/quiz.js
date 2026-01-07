@@ -152,10 +152,10 @@
          */
         renderMCQ(question, index) {
             const optionsHTML = question.options.map(option => {
-                const value = option.charAt(0); // Extract A, B, C, D
+                // Use the full option text as the value to match correctAnswer
                 return `
                     <label class="option">
-                        <input type="radio" name="q${index}" value="${value}" data-question-index="${index}">
+                        <input type="radio" name="q${index}" value="${option}" data-question-index="${index}">
                         <span>${option}</span>
                     </label>
                 `;

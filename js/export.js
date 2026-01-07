@@ -33,11 +33,11 @@
 
         static convertToCSV(data) {
             const lines = [];
-            lines.push('Vinhomes Green Paradise Quiz - Kết quả');
+            lines.push('CLB NGÔI SAO MASTERISE HOMES - MAYHOMES - Kết quả');
             lines.push('');
             lines.push(`Họ tên,${data.userInfo.name}`);
             lines.push(`SĐT,${data.userInfo.phone}`);
-            lines.push(`Agent,${data.userInfo.agentName}`);
+            lines.push(`Đội nhóm,${data.userInfo.team}`);
             lines.push('');
             lines.push(`Điểm MCQ,${data.score.mcq.score}/${data.score.mcq.total}`);
             lines.push(`Tổng điểm,${data.score.total.score}/${data.score.total.maxScore}`);

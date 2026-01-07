@@ -77,10 +77,10 @@
         phoneEl.textContent = this.formatPhoneNumber(this.userInfo.phone);
       }
 
-      // Agent
+      // Team
       const agentEl = document.getElementById("user-agent");
       if (agentEl) {
-        agentEl.textContent = this.userInfo.agentName;
+        agentEl.textContent = this.userInfo.team;
       }
 
       // Completed time

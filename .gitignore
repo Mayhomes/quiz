@@ -61,3 +61,5 @@ taskmaster.config.json
 
 # Taskmaster-AI (optional - uncomment if you want to ignore history)
 # .taskmaster/history.json
+
+*.md

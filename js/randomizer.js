@@ -23,24 +23,20 @@
 
     /**
      * Load questions from JSON files
-     * @returns {Promise<Object>} Object containing MCQs and essays
+     * @returns {Promise<Object>} Object containing MCQs
      */
     async function loadQuestions() {
         try {
-            const [mcqPart1Response, mcqPart2Response] = await Promise.all([
-                fetch('data/mcq-questions-part1.json'),
-                fetch('data/mcq-questions-part2.json')
-            ]);
+            const mcqPart1Response = await fetch('data/mcq-questions-part1.json');
 
-            if (!mcqPart1Response.ok || !mcqPart2Response.ok) {
+            if (!mcqPart1Response.ok) {
                 throw new Error('Failed to load question files');
             }
 
             const mcqPart1 = await mcqPart1Response.json();
-            const mcqPart2 = await mcqPart2Response.json();
 
             return {
-                mcqs: [...mcqPart1.questions, ...mcqPart2.questions]
+                mcqs: mcqPart1.questions
             };
         } catch (error) {
             console.error('Error loading questions:', error);
@@ -49,8 +45,24 @@
     }
 
     /**
+     * Shuffle answer options for a question while preserving correct answer
+     * @param {Object} question - Question object
+     * @returns {Object} Question with shuffled options
+     */
+    function shuffleQuestionOptions(question) {
+        const correctAnswer = question.correctAnswer;
+        const shuffledOptions = shuffleArray(question.options);
+        
+        return {
+            ...question,
+            options: shuffledOptions,
+            correctAnswer: correctAnswer // Keep the correct answer text, not the index
+        };
+    }
+
+    /**
      * Randomize and select questions for the quiz
-     * @returns {Promise<Array>} Array of 30 selected questions
+     * @returns {Promise<Array>} Array of 20 selected questions
      */
     async function randomizeQuestions() {
         const data = await loadQuestions();
@@ -60,27 +72,26 @@
         }
 
         // Validate we have enough questions
-        if (data.mcqs.length < 30) {
-            throw new Error(`Không đủ câu hỏi trắc nghiệm (cần 30, có ${data.mcqs.length})`);
+        if (data.mcqs.length < 20) {
+            throw new Error(`Không đủ câu hỏi trắc nghiệm (cần 20, có ${data.mcqs.length})`);
         }
 
-        // Shuffle and select 30 MCQs
+        // Shuffle and select 20 MCQs
         const shuffledMCQs = shuffleArray(data.mcqs);
-        const selectedMCQs = shuffledMCQs.slice(0, 30);
-
-        // No essay questions
-        const quizQuestions = [...selectedMCQs];
+        const selectedMCQs = shuffledMCQs.slice(0, 20);
+        
+        // Shuffle answer options for each question
+        const questionsWithShuffledOptions = selectedMCQs.map(q => shuffleQuestionOptions(q));
 
         // Store in localStorage
-        localStorage.setItem('quizQuestions', JSON.stringify(quizQuestions));
+        localStorage.setItem('quizQuestions', JSON.stringify(questionsWithShuffledOptions));
         
         console.log('Questions randomized:', {
             mcqs: selectedMCQs.length,
-            essays: 0,
-            total: quizQuestions.length
+            total: questionsWithShuffledOptions.length
         });
 
-        return quizQuestions;
+        return questionsWithShuffledOptions;
     }
 
     /**
@@ -97,7 +108,7 @@
                 const questions = JSON.parse(questionsJson);
                 
                 // Validate the stored questions
-                if (Array.isArray(questions) && questions.length === 30) {
+                if (Array.isArray(questions) && questions.length === 20) {
                     console.log('Using existing questions from localStorage');
                     return questions;
                 }

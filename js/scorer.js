@@ -124,7 +124,7 @@
                     userInfo: {
                         name: userInfo.name,
                         phone: userInfo.phone,
-                        agentName: userInfo.agentName,
+                        team: userInfo.team,
                         startTime: userInfo.timestamp
                     },
                     quiz: {
