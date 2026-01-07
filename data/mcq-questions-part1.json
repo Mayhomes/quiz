@@ -36,12 +36,12 @@
       "number": 3,
       "text": "Tagline của Masterise Group là gì?",
       "options": [
-        "Hệ sinh thái Bất động sản đúng sản phẩm tế",
-        "Hệ Sinh thái Bất đồng sản",
-        "Bất động sản hàng hiệu đẳng cấp quốc Tế",
-        "Bất Đông sản hàng hiệu"
+        "Hệ sinh thái bất động sản quốc tế",
+        "Hệ sinh thái bất động sản",
+        "Bất động sản hàng hiệu đẳng cấp quốc tế",
+        "Bất động sản hàng hiệu"
       ],
-      "correctAnswer": "Hệ sinh thái Bất động sản đúng sản phẩm tế",
+      "correctAnswer": "Hệ sinh thái bất động sản quốc tế",
       "points": 1
     },
     {
@@ -49,12 +49,12 @@
       "number": 4,
       "text": "Yếu tố nào không phải là các giá trị cốt lõi của Masterise Group?",
       "options": [
-        "Trải nghiệm sống tâm",
+        "Trải nghiệm xứng tầm",
         "Đổi mới khát vọng vì Dân Tộc",
         "Tư duy Thể, Hành động cho Tương Lai",
         "Vận hành hướng đến sự Xuất Sắc"
       ],
-      "correctAnswer": "Trải nghiệm sống tâm",
+      "correctAnswer": "Trải nghiệm xứng tầm",
       "points": 1
     },
     {
