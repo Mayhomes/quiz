@@ -5,7 +5,7 @@
 
 const GOOGLE_SHEETS_CONFIG = {
     // Google Apps Script Web App URL
-    SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxj9Z-lfbGXDJTX6jegUt6oLADMZhQ-5Po2dfzmGKIj53Bv-aN6PGHwoSgUYd2ewV87Jw/exec',
+    SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbzfnkFJ6InkC8exDhL9wmNCkbyDG1sXDFBl0U5ssERQNLPvhEA6nGFCCaDOYjqWvmajWg/exec',
     
     // Sheet name where data will be stored
     SHEET_NAME: 'QuizResults',

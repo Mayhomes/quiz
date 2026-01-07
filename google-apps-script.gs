@@ -1,9 +1,9 @@
 /**
- * Google Apps Script for Vinhomes Green Paradise Quiz
+ * Google Apps Script for Masterise Homes Quiz
  * Deploy this as a Web App to receive quiz results
  * 
  * SETUP INSTRUCTIONS:
- * 1. Open your Google Sheet: https://docs.google.com/spreadsheets/d/114RmHlWam_wlZb9ZLb9C67X8B1rb97k2i5MDCKBN_bo/
+ * 1. Open your Google Sheet: https://docs.google.com/spreadsheets/d/1tzQ9M_WTKsxkID2aOVcgyDnIWfoFqTM5KkfZh3EYy88/
  * 2. Go to Extensions > Apps Script
  * 3. Delete any existing code and paste this entire code
  * 4. Click "Deploy" > "New deployment"
@@ -45,13 +45,13 @@ function getOrCreateSheet() {
   if (!sheet) {
     sheet = ss.insertSheet(SHEET_NAME);
     const headers = [
-      'Timestamp', 'Name', 'Phone', 'Agent Name', 'Start Time', 'Completion Time',
+      'Timestamp', 'Name', 'Phone', 'Team', 'Start Time', 'Completion Time',
       'Total Questions', 'MCQ Count', 'Essay Count', 'MCQ Score', 'MCQ Total',
       'MCQ Percentage', 'Essay Score', 'Essay Total', 'Total Score', 'Max Score',
       'Total Percentage', 'Question Details (JSON)'
     ];
     sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
-    sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold').setBackground('#00A651').setFontColor('#FFFFFF');
+    sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold').setBackground('#9B7E5C').setFontColor('#FFFFFF');
     sheet.setFrozenRows(1);
   }
   
@@ -63,7 +63,7 @@ function addResultToSheet(sheet, data) {
     new Date().toISOString(),
     data.userInfo.name,
     data.userInfo.phone,
-    data.userInfo.agentName,
+    data.userInfo.team,
     data.userInfo.startTime,
     data.completedAt,
     data.quiz.totalQuestions,
